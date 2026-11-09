@@ -1,0 +1,26 @@
+{
+  "trips":{
+    "drive at limit":51,
+    "advised":51
+  },
+  "stops_mean":{
+    "drive at limit":2.725,
+    "advised":1.255
+  },
+  "zero_stop_trips_%":{
+    "drive at limit":0.0,
+    "advised":7.843
+  },
+  "wait_s_mean":{
+    "drive at limit":36.098,
+    "advised":19.863
+  },
+  "travel_time_s_mean":{
+    "drive at limit":348.578,
+    "advised":356.873
+  },
+  "fuel_g_mean":{
+    "drive at limit":233.398,
+    "advised":222.482
+  }
+}

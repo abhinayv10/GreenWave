@@ -1,0 +1,12 @@
+scenario,condition,stops,zero_stop_pct,broken_promises,wait_s,travel_s,fuel_g,replans
+corridor_fixed,drive at limit,2.73,0.0,,36.1,348.58,233.4,0.0
+corridor_fixed,advised: exact plan,1.25,7.84,0.25,19.86,356.87,222.48,9.0
+corridor_fixed,advised: exact plan + queue,1.59,0.0,0.0,21.25,358.3,223.68,9.0
+corridor_fixed,"advised: exact plan + queue, realistic driver",1.57,3.92,0.0,22.89,359.15,214.9,9.59
+corridor_actuated,drive at limit,2.31,1.96,,23.89,322.96,219.9,0.0
+corridor_actuated,advised: nominal plan (ignores actuation) + queue,0.45,66.67,0.0,3.09,348.13,217.61,9.0
+corridor_actuated,"advised: history, unconditioned + queue",0.63,66.67,0.0,7.1,337.48,211.19,9.0
+corridor_actuated,advised: history | cross demand + queue,0.69,62.75,0.0,3.86,333.32,209.95,9.1
+corridor_actuated,advised: history | cross demand + live state + queue,0.65,62.75,0.0,3.74,334.35,210.7,10.2
+corridor_actuated,advised: oracle (recorded truth) + queue,0.63,66.67,0.0,3.9,333.56,210.02,9.0
+corridor_actuated,"advised: history | cross demand + live state + queue, realistic driver",0.78,56.86,0.0,5.68,335.31,202.08,10.86

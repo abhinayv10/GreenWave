@@ -1,0 +1,36 @@
+# Same geometry and nominal timing as corridor_fixed, but coordinated semi-actuated control (ADR-0008).
+# Cross-street demand varies over time and by intersection, so main-street green start times vary:
+# low cross demand -> cross phase gaps out early -> main green starts early ("early return to green").
+
+name: corridor_actuated
+speed_limit_kmh: 50
+cross_speed_limit_kmh: 40
+main_lanes: 2
+cross_lanes: 1
+cross_arm_length_m: 200
+corridor_length_m: 3850
+
+signal_timing:
+  control: actuated
+  cycle_s: 90
+  yellow_s: 3
+  all_red_s: 2
+  progression_speed_kmh: 40
+  cross_min_green_s: 8
+  max_gap_s: 3
+
+intersections:
+  - {id: J1, x: 400,  main_green_s: 50, cross_demand_factor: 1.0}
+  - {id: J2, x: 750,  main_green_s: 45, cross_demand_factor: 0.5}
+  - {id: J3, x: 1300, main_green_s: 50, cross_demand_factor: 1.5}
+  - {id: J4, x: 1650, main_green_s: 40, cross_demand_factor: 0.7}
+  - {id: J5, x: 2200, main_green_s: 45, offset_shift_s: 20, cross_demand_factor: 1.0}
+  - {id: J6, x: 2500, main_green_s: 50, cross_demand_factor: 0.4}
+  - {id: J7, x: 3000, main_green_s: 45, cross_demand_factor: 1.2}
+  - {id: J8, x: 3450, main_green_s: 50, cross_demand_factor: 0.8}
+
+demand:
+  main_eb: 500
+  main_wb: 500
+  # cross street veh/h per direction: quiet -> busy -> moderate
+  cross_profile: [[0, 1200, 60], [1200, 2400, 300], [2400, 3600, 140]]

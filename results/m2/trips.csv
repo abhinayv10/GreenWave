@@ -1,0 +1,562 @@
+id,depart,advised,travel_time,stops,wait,fuel_g,replans,advice_changes,broken_promises,condition,scenario
+base_300,300,False,314.0,1,21.5,215.13733358927786,0,0,,drive at limit,corridor_fixed
+base_360,360,False,340.5,4,36.5,241.0941522219723,0,0,,drive at limit,corridor_fixed
+base_420,420,False,377.5,3,54.5,241.72922956357846,0,0,,drive at limit,corridor_fixed
+base_480,480,False,316.0,1,19.5,204.3398830945065,0,0,,drive at limit,corridor_fixed
+base_540,540,False,346.0,2,25.0,219.0262971935223,0,0,,drive at limit,corridor_fixed
+base_600,600,False,370.5,5,66.5,262.112862085634,0,0,,drive at limit,corridor_fixed
+base_660,660,False,318.5,1,20.0,212.23827999503916,0,0,,drive at limit,corridor_fixed
+base_720,720,False,365.5,2,23.5,216.08381543250323,0,0,,drive at limit,corridor_fixed
+base_780,780,False,370.5,5,66.5,262.112862085634,0,0,,drive at limit,corridor_fixed
+base_840,840,False,324.5,1,17.5,208.1253363082132,0,0,,drive at limit,corridor_fixed
+base_900,900,False,344.5,3,29.5,243.13469766208718,0,0,,drive at limit,corridor_fixed
+base_960,960,False,373.0,5,66.0,266.76537848828576,0,0,,drive at limit,corridor_fixed
+base_1020,1020,False,324.5,1,16.5,203.93432606671357,0,0,,drive at limit,corridor_fixed
+base_1080,1080,False,346.5,2,26.0,231.15557326014903,0,0,,drive at limit,corridor_fixed
+base_1140,1140,False,392.0,3,55.0,243.40946377718035,0,0,,drive at limit,corridor_fixed
+base_1200,1200,False,316.0,1,17.5,205.9502941379423,0,0,,drive at limit,corridor_fixed
+base_1260,1260,False,343.5,3,31.0,242.3999148888173,0,0,,drive at limit,corridor_fixed
+base_1320,1320,False,374.0,4,60.5,261.2126357500715,0,0,,drive at limit,corridor_fixed
+base_1380,1380,False,316.5,1,19.5,210.77681706585133,0,0,,drive at limit,corridor_fixed
+base_1440,1440,False,359.5,2,23.5,217.79528826988363,0,0,,drive at limit,corridor_fixed
+base_1500,1500,False,370.5,5,66.5,262.112862085634,0,0,,drive at limit,corridor_fixed
+base_1560,1560,False,329.5,1,17.0,206.86865975062275,0,0,,drive at limit,corridor_fixed
+base_1620,1620,False,348.5,2,25.5,225.76325678103103,0,0,,drive at limit,corridor_fixed
+base_1680,1680,False,374.0,5,66.0,265.8035156380229,0,0,,drive at limit,corridor_fixed
+base_1740,1740,False,316.0,1,13.5,210.22932515916372,0,0,,drive at limit,corridor_fixed
+base_1800,1800,False,341.5,2,27.5,224.9381614172699,0,0,,drive at limit,corridor_fixed
+base_1860,1860,False,374.5,4,61.0,260.7254163243048,0,0,,drive at limit,corridor_fixed
+base_1920,1920,False,322.0,1,18.5,206.87338996786661,0,0,,drive at limit,corridor_fixed
+base_1980,1980,False,340.5,4,35.0,238.98231237679988,0,0,,drive at limit,corridor_fixed
+base_2040,2040,False,370.5,5,66.5,262.90506316191204,0,0,,drive at limit,corridor_fixed
+base_2100,2100,False,353.5,1,12.0,202.56152069002812,0,0,,drive at limit,corridor_fixed
+base_2160,2160,False,365.5,2,22.0,226.73134513299522,0,0,,drive at limit,corridor_fixed
+base_2220,2220,False,376.5,5,56.5,255.5223118242151,0,0,,drive at limit,corridor_fixed
+base_2280,2280,False,313.5,1,16.0,210.2277270773157,0,0,,drive at limit,corridor_fixed
+base_2340,2340,False,345.5,3,29.0,242.75659988907879,0,0,,drive at limit,corridor_fixed
+base_2400,2400,False,372.0,5,66.0,264.15176650996284,0,0,,drive at limit,corridor_fixed
+base_2460,2460,False,315.5,1,18.5,209.5033280704212,0,0,,drive at limit,corridor_fixed
+base_2520,2520,False,344.0,2,32.0,241.1992096560207,0,0,,drive at limit,corridor_fixed
+base_2580,2580,False,370.5,5,66.5,262.112862085634,0,0,,drive at limit,corridor_fixed
+base_2640,2640,False,317.0,1,18.5,207.06928431225586,0,0,,drive at limit,corridor_fixed
+base_2700,2700,False,342.5,3,29.0,239.55176926609414,0,0,,drive at limit,corridor_fixed
+base_2760,2760,False,393.0,4,50.0,250.52250879969904,0,0,,drive at limit,corridor_fixed
+base_2820,2820,False,316.0,1,18.5,212.20683681632153,0,0,,drive at limit,corridor_fixed
+base_2880,2880,False,344.0,3,30.0,244.54001433122463,0,0,,drive at limit,corridor_fixed
+base_2940,2940,False,395.0,3,51.5,245.35655445118064,0,0,,drive at limit,corridor_fixed
+base_3000,3000,False,330.0,1,15.5,205.56513305078332,0,0,,drive at limit,corridor_fixed
+base_3060,3060,False,344.5,3,29.5,231.32586331637637,0,0,,drive at limit,corridor_fixed
+base_3120,3120,False,376.5,5,66.0,264.47390548273484,0,0,,drive at limit,corridor_fixed
+base_3180,3180,False,327.0,1,18.0,205.65723481562756,0,0,,drive at limit,corridor_fixed
+base_3240,3240,False,340.5,4,36.5,243.61951905903996,0,0,,drive at limit,corridor_fixed
+base_3300,3300,False,374.0,5,66.5,264.88531955394274,0,0,,drive at limit,corridor_fixed
+adv_300,300,True,324.0,0,0.0,205.78530400539205,9,5,0.0,advised: exact plan,corridor_fixed
+adv_360,360,True,361.0,1,12.5,221.89740079638054,9,4,0.0,advised: exact plan,corridor_fixed
+adv_420,420,True,385.5,2,44.0,237.3494637854481,9,4,0.0,advised: exact plan,corridor_fixed
+adv_480,480,True,337.0,0,0.0,205.31872474439933,9,5,0.0,advised: exact plan,corridor_fixed
+adv_540,540,True,361.5,1,12.5,220.71438098581135,9,2,0.0,advised: exact plan,corridor_fixed
+adv_600,600,True,375.0,2,48.5,241.16824850156777,9,5,0.0,advised: exact plan,corridor_fixed
+adv_660,660,True,324.0,1,2.0,207.8630663374211,9,5,1.0,advised: exact plan,corridor_fixed
+adv_720,720,True,358.5,1,15.0,223.98316767210775,9,4,0.0,advised: exact plan,corridor_fixed
+adv_780,780,True,383.5,2,44.5,237.5381156123452,9,3,0.0,advised: exact plan,corridor_fixed
+adv_840,840,True,329.0,1,1.5,207.00565995150345,9,5,1.0,advised: exact plan,corridor_fixed
+adv_900,900,True,354.0,1,14.5,224.27067809924347,9,4,0.0,advised: exact plan,corridor_fixed
+adv_960,960,True,375.5,2,48.0,241.00961253691855,9,5,0.0,advised: exact plan,corridor_fixed
+adv_1020,1020,True,330.5,1,3.5,207.80246120996637,9,5,1.0,advised: exact plan,corridor_fixed
+adv_1080,1080,True,353.5,1,16.5,224.0896011104359,9,2,0.0,advised: exact plan,corridor_fixed
+adv_1140,1140,True,381.5,2,43.0,236.67719186051693,9,3,0.0,advised: exact plan,corridor_fixed
+adv_1200,1200,True,331.0,1,3.5,207.3497981576381,9,5,1.0,advised: exact plan,corridor_fixed
+adv_1260,1260,True,357.0,1,16.0,221.57770390500818,9,2,0.0,advised: exact plan,corridor_fixed
+adv_1320,1320,True,392.0,2,44.0,238.73069632650805,9,4,0.0,advised: exact plan,corridor_fixed
+adv_1380,1380,True,324.5,1,1.5,206.98756644474673,9,5,1.0,advised: exact plan,corridor_fixed
+adv_1440,1440,True,354.0,1,10.5,223.63611782380437,9,4,0.0,advised: exact plan,corridor_fixed
+adv_1500,1500,True,388.0,2,45.0,236.8234623960516,9,4,0.0,advised: exact plan,corridor_fixed
+adv_1560,1560,True,331.0,0,0.0,203.93979764555607,9,5,0.0,advised: exact plan,corridor_fixed
+adv_1620,1620,True,350.5,1,14.5,223.1358532125747,9,2,0.0,advised: exact plan,corridor_fixed
+adv_1680,1680,True,387.0,2,43.0,237.6232717026505,9,3,0.0,advised: exact plan,corridor_fixed
+adv_1740,1740,True,331.0,1,2.0,206.92014467882558,9,5,1.0,advised: exact plan,corridor_fixed
+adv_1800,1800,True,350.5,1,13.5,223.76886675291732,9,4,0.0,advised: exact plan,corridor_fixed
+adv_1860,1860,True,376.0,2,46.5,241.5494947106123,9,5,0.0,advised: exact plan,corridor_fixed
+adv_1920,1920,True,338.5,1,2.0,207.20981217171246,9,5,1.0,advised: exact plan,corridor_fixed
+adv_1980,1980,True,370.0,1,13.5,220.51532802203607,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2040,2040,True,387.0,2,40.5,232.06695843998315,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2100,2100,True,325.5,1,3.0,208.19562822044193,9,5,1.0,advised: exact plan,corridor_fixed
+adv_2160,2160,True,359.5,1,14.0,221.08122344164804,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2220,2220,True,377.0,2,41.0,240.9976921306358,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2280,2280,True,327.0,1,2.0,206.1183836200461,9,5,1.0,advised: exact plan,corridor_fixed
+adv_2340,2340,True,369.0,1,14.5,222.60447959882305,9,3,0.0,advised: exact plan,corridor_fixed
+adv_2400,2400,True,386.5,2,42.5,235.53708672408848,9,3,0.0,advised: exact plan,corridor_fixed
+adv_2460,2460,True,334.0,1,2.0,208.5865152257955,9,5,1.0,advised: exact plan,corridor_fixed
+adv_2520,2520,True,352.5,1,15.5,223.94522768997018,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2580,2580,True,382.5,2,44.0,237.39946033776008,9,3,0.0,advised: exact plan,corridor_fixed
+adv_2640,2640,True,326.0,1,3.5,208.2138081067495,9,5,1.0,advised: exact plan,corridor_fixed
+adv_2700,2700,True,347.0,1,13.5,223.2584886120382,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2760,2760,True,381.0,2,38.5,234.66020160417773,9,4,0.0,advised: exact plan,corridor_fixed
+adv_2820,2820,True,329.5,1,1.5,208.439949551927,9,5,1.0,advised: exact plan,corridor_fixed
+adv_2880,2880,True,358.0,1,17.5,222.5734316558209,9,3,0.0,advised: exact plan,corridor_fixed
+adv_2940,2940,True,396.5,2,40.0,232.95859686736642,9,3,0.0,advised: exact plan,corridor_fixed
+adv_3000,3000,True,338.0,1,2.0,205.37115474622522,9,5,1.0,advised: exact plan,corridor_fixed
+adv_3060,3060,True,372.5,1,12.5,222.7780539434385,9,3,0.0,advised: exact plan,corridor_fixed
+adv_3120,3120,True,378.5,2,48.0,245.3077719803203,9,4,0.0,advised: exact plan,corridor_fixed
+adv_3180,3180,True,321.0,0,0.0,205.92347304326915,9,5,0.0,advised: exact plan,corridor_fixed
+adv_3240,3240,True,349.0,1,15.0,223.64294406318817,9,3,0.0,advised: exact plan,corridor_fixed
+adv_3300,3300,True,388.0,2,40.5,234.70208123948223,9,4,0.0,advised: exact plan,corridor_fixed
+adv_300,300,True,328.5,1,5.5,209.73277157905858,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_360,360,True,359.5,2,13.5,222.61760431867185,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_420,420,True,380.0,2,43.0,239.08299760603643,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_480,480,True,336.5,1,4.0,206.93703293574652,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_540,540,True,353.5,2,15.5,225.00413541219962,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_600,600,True,382.0,2,43.0,238.75558111361437,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_660,660,True,327.5,1,7.0,209.1779841969633,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_720,720,True,357.0,1,14.0,223.36121596814777,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_780,780,True,383.5,2,44.5,239.0325190575644,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_840,840,True,325.0,1,6.5,208.48692048322005,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_900,900,True,361.5,2,16.0,222.5010600106079,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_960,960,True,383.0,2,44.0,238.90917094366063,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_1020,1020,True,328.0,1,7.0,208.41466363037506,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1080,1080,True,358.0,2,15.0,223.05340959838898,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1140,1140,True,387.5,2,44.0,239.65020292573422,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_1200,1200,True,337.5,1,7.0,209.72000068287292,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1260,1260,True,352.5,2,15.5,225.81404951838675,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1320,1320,True,384.0,2,43.5,234.9673899803867,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_1380,1380,True,329.5,1,7.5,208.11890689017653,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1440,1440,True,353.5,2,11.5,222.77780978194704,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1500,1500,True,385.5,2,44.5,239.04050419808317,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_1560,1560,True,324.0,1,6.0,209.02597604859844,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1620,1620,True,368.5,2,15.5,223.29676196002626,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1680,1680,True,396.0,2,43.0,239.93990232128294,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_1740,1740,True,337.5,1,5.5,209.16128999550432,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1800,1800,True,359.5,2,13.5,222.35873772585103,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1860,1860,True,380.5,2,43.5,239.552131572185,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_1920,1920,True,338.5,1,7.0,210.1186147983692,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_1980,1980,True,369.0,2,14.0,223.55749781311332,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2040,2040,True,380.5,2,43.5,238.8351865992301,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_2100,2100,True,326.0,1,8.0,210.33432664151707,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2160,2160,True,366.0,1,14.5,222.73021410986877,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2220,2220,True,381.5,2,42.0,237.6773951073076,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_2280,2280,True,329.0,1,5.5,207.54764779337273,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2340,2340,True,375.0,2,12.0,225.28701426593105,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2400,2400,True,388.5,2,42.5,236.6892989940617,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_2460,2460,True,326.5,1,6.5,211.06152645457783,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2520,2520,True,354.0,2,15.5,225.31428261074873,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2580,2580,True,382.0,2,44.5,239.92071246599494,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_2640,2640,True,326.0,1,8.0,209.56716843228216,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2700,2700,True,347.0,1,11.0,222.85260582481297,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2760,2760,True,381.5,2,44.5,238.67472066032008,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_2820,2820,True,343.0,1,6.0,210.12651463767926,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2880,2880,True,356.5,2,14.5,223.31591709994504,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_2940,2940,True,395.5,2,41.0,234.66910020711776,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_3000,3000,True,337.0,1,6.5,209.1236499292078,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_3060,3060,True,368.5,1,13.5,222.73524070913595,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_3120,3120,True,380.0,2,44.0,240.10015640112675,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_3180,3180,True,321.5,1,5.0,209.73124923097723,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_3240,3240,True,357.0,2,14.0,222.68379469103857,9,3,0.0,advised: exact plan + queue,corridor_fixed
+adv_3300,3300,True,384.0,2,41.5,236.78476951504268,9,4,0.0,advised: exact plan + queue,corridor_fixed
+adv_300,300,True,323.0,1,13.5,197.47505059995743,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_360,360,True,361.5,2,14.0,213.9952617693162,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_420,420,True,383.5,2,44.0,225.00160691434186,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_480,480,True,337.0,1,2.0,197.92495157152987,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_540,540,True,363.0,2,19.0,214.53919620583454,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_600,600,True,392.0,2,40.0,227.36384132934452,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_660,660,True,332.5,1,11.5,204.44230325428802,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_720,720,True,360.5,2,16.0,214.5386484547694,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_780,780,True,395.5,2,38.5,227.1533271114634,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_840,840,True,323.5,1,14.0,202.2182456661732,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_900,900,True,360.5,2,15.5,212.39417250492912,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_960,960,True,384.0,2,50.5,235.16232228931275,12,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1020,1020,True,324.0,1,13.5,201.5586345546615,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1080,1080,True,358.0,2,15.5,211.90764887153588,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1140,1140,True,385.5,2,46.5,229.94892426319123,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1200,1200,True,338.0,1,11.5,204.5459723821509,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1260,1260,True,359.5,2,16.0,215.32007471771905,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1320,1320,True,384.5,2,47.5,229.10375681903326,10,5,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1380,1380,True,332.5,1,12.0,204.77288878997774,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1440,1440,True,358.0,2,13.5,217.6719559149435,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1500,1500,True,383.0,2,49.5,230.68127953137727,10,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1560,1560,True,321.5,1,14.5,197.55930826065872,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1620,1620,True,350.5,2,20.0,216.60438172424233,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1680,1680,True,379.5,2,41.0,228.05413008390357,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1740,1740,True,330.5,1,5.5,198.70087439752984,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1800,1800,True,359.0,2,14.0,213.8002725580775,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1860,1860,True,381.5,2,48.5,226.0630466474602,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1920,1920,True,324.0,1,10.0,197.5111020569148,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_1980,1980,True,365.5,2,16.5,224.1547184212072,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2040,2040,True,387.5,2,43.0,225.0920604456739,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2100,2100,True,320.5,1,11.5,199.77181364069475,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2160,2160,True,367.5,2,16.5,220.64135883908386,11,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2220,2220,True,398.0,2,36.0,227.00969773057463,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2280,2280,True,335.5,0,0.0,195.96112320904052,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2340,2340,True,368.0,2,15.0,218.22970902977872,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2400,2400,True,409.5,2,40.0,229.80256829412284,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2460,2460,True,350.5,1,9.5,208.10391326732238,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2520,2520,True,349.0,2,21.5,216.59716714894518,11,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2580,2580,True,398.5,2,33.0,224.13058362044154,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2640,2640,True,321.0,1,7.5,201.94075123040344,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2700,2700,True,350.5,1,16.5,211.04095702238837,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2760,2760,True,375.0,2,49.0,230.79829145059978,11,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2820,2820,True,336.5,0,0.0,197.3493236835102,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2880,2880,True,355.5,2,17.5,211.6061826309127,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_2940,2940,True,391.5,2,46.0,229.96958621912052,10,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_3000,3000,True,335.5,1,11.0,205.6517609359625,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_3060,3060,True,369.0,1,12.0,218.79725916202648,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_3120,3120,True,383.0,2,44.0,227.6525933127418,9,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_3180,3180,True,329.5,1,6.0,200.69619685435333,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_3240,3240,True,360.5,1,7.0,209.99188879658212,9,3,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+adv_3300,3300,True,373.0,2,51.0,229.00272459503552,11,4,0.0,"advised: exact plan + queue, realistic driver",corridor_fixed
+base_300,300,False,292.5,2,2.0,203.48465448682907,0,0,,drive at limit,corridor_actuated
+base_360,360,False,324.0,2,16.5,217.20574955413596,0,0,,drive at limit,corridor_actuated
+base_420,420,False,314.0,2,25.5,214.36442824280257,0,0,,drive at limit,corridor_actuated
+base_480,480,False,297.0,1,0.5,196.28256814465723,0,0,,drive at limit,corridor_actuated
+base_540,540,False,327.0,2,5.0,213.036007142152,0,0,,drive at limit,corridor_actuated
+base_600,600,False,311.5,2,23.5,213.23423349911116,0,0,,drive at limit,corridor_actuated
+base_660,660,False,297.0,2,2.0,200.64941765208522,0,0,,drive at limit,corridor_actuated
+base_720,720,False,320.5,2,25.0,220.54145593960354,0,0,,drive at limit,corridor_actuated
+base_780,780,False,312.5,2,25.0,215.17442618605804,0,0,,drive at limit,corridor_actuated
+base_840,840,False,298.5,0,0.0,200.0582852387507,0,0,,drive at limit,corridor_actuated
+base_900,900,False,320.5,2,22.0,227.13125483935085,0,0,,drive at limit,corridor_actuated
+base_960,960,False,312.0,2,24.5,214.10986342299174,0,0,,drive at limit,corridor_actuated
+base_1020,1020,False,293.0,1,3.0,196.7156927630767,0,0,,drive at limit,corridor_actuated
+base_1080,1080,False,329.5,3,26.5,228.61638982568704,0,0,,drive at limit,corridor_actuated
+base_1140,1140,False,358.5,5,54.5,254.9298223515728,0,0,,drive at limit,corridor_actuated
+base_1200,1200,False,300.0,1,10.0,203.4079031585534,0,0,,drive at limit,corridor_actuated
+base_1260,1260,False,329.5,3,32.0,225.51458617001435,0,0,,drive at limit,corridor_actuated
+base_1320,1320,False,359.0,3,59.5,247.22291378617348,0,0,,drive at limit,corridor_actuated
+base_1380,1380,False,308.0,1,11.0,196.84477761916503,0,0,,drive at limit,corridor_actuated
+base_1440,1440,False,329.0,2,21.0,208.63723685508882,0,0,,drive at limit,corridor_actuated
+base_1500,1500,False,353.5,3,59.5,244.1454556779839,0,0,,drive at limit,corridor_actuated
+base_1560,1560,False,301.0,1,11.0,197.65657618011969,0,0,,drive at limit,corridor_actuated
+base_1620,1620,False,330.5,2,24.5,230.26125687384544,0,0,,drive at limit,corridor_actuated
+base_1680,1680,False,356.0,3,60.0,247.1367150824416,0,0,,drive at limit,corridor_actuated
+base_1740,1740,False,301.0,1,10.5,197.6027339278081,0,0,,drive at limit,corridor_actuated
+base_1800,1800,False,330.0,2,25.0,231.0330083695231,0,0,,drive at limit,corridor_actuated
+base_1860,1860,False,360.0,3,60.0,248.15383251696974,0,0,,drive at limit,corridor_actuated
+base_1920,1920,False,306.5,1,8.5,194.38596521821825,0,0,,drive at limit,corridor_actuated
+base_1980,1980,False,325.0,2,24.0,220.86674304162545,0,0,,drive at limit,corridor_actuated
+base_2040,2040,False,358.5,4,60.5,248.107337954477,0,0,,drive at limit,corridor_actuated
+base_2100,2100,False,304.5,1,12.5,199.0747910588207,0,0,,drive at limit,corridor_actuated
+base_2160,2160,False,333.0,2,15.0,208.32827388849284,0,0,,drive at limit,corridor_actuated
+base_2220,2220,False,348.5,3,55.5,240.24722768040755,0,0,,drive at limit,corridor_actuated
+base_2280,2280,False,303.0,1,3.5,195.54645794279054,0,0,,drive at limit,corridor_actuated
+base_2340,2340,False,318.5,2,6.0,215.0816499718626,0,0,,drive at limit,corridor_actuated
+base_2400,2400,False,350.5,4,48.0,250.16845515427266,0,0,,drive at limit,corridor_actuated
+base_2460,2460,False,302.5,1,2.0,193.90927422607592,0,0,,drive at limit,corridor_actuated
+base_2520,2520,False,322.5,4,23.0,229.38333605707908,0,0,,drive at limit,corridor_actuated
+base_2580,2580,False,352.0,4,39.5,245.01102773281596,0,0,,drive at limit,corridor_actuated
+base_2640,2640,False,293.5,2,3.0,203.04526177310362,0,0,,drive at limit,corridor_actuated
+base_2700,2700,False,324.5,2,16.5,212.3250534385575,0,0,,drive at limit,corridor_actuated
+base_2760,2760,False,350.5,4,48.0,249.87848675382924,0,0,,drive at limit,corridor_actuated
+base_2820,2820,False,299.0,1,2.0,198.87702059465852,0,0,,drive at limit,corridor_actuated
+base_2880,2880,False,320.5,3,21.5,219.0904474144214,0,0,,drive at limit,corridor_actuated
+base_2940,2940,False,353.5,5,49.5,251.61166044670804,0,0,,drive at limit,corridor_actuated
+base_3000,3000,False,301.5,1,2.0,195.91441440415787,0,0,,drive at limit,corridor_actuated
+base_3060,3060,False,320.5,4,20.0,228.7802896000295,0,0,,drive at limit,corridor_actuated
+base_3120,3120,False,350.5,4,48.0,249.87848675382915,0,0,,drive at limit,corridor_actuated
+base_3180,3180,False,295.5,1,1.5,194.23468820125805,0,0,,drive at limit,corridor_actuated
+base_3240,3240,False,320.5,3,23.0,229.38909996234014,0,0,,drive at limit,corridor_actuated
+base_3300,3300,False,350.5,4,46.0,248.49077695184207,0,0,,drive at limit,corridor_actuated
+adv_300,300,True,317.0,0,0.0,202.46249360228924,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_360,360,True,347.5,0,0.0,216.7619981860099,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_420,420,True,378.0,1,4.5,231.00834889219456,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_480,480,True,317.5,0,0.0,201.92225252732635,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_540,540,True,347.5,0,0.0,216.99505789684727,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_600,600,True,378.0,1,4.5,230.74518606421594,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_660,660,True,319.5,0,0.0,201.4268830729077,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_720,720,True,347.5,0,0.0,216.7619981860099,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_780,780,True,378.5,1,4.5,234.6748459717576,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_840,840,True,320.0,0,0.0,201.21424354331933,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_900,900,True,347.5,0,0.0,216.38856327402445,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_960,960,True,377.5,1,4.5,234.44036358894664,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1020,1020,True,317.5,0,0.0,202.7387770592782,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1080,1080,True,348.5,0,0.0,215.2650409535795,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1140,1140,True,377.0,2,13.5,235.49222692630906,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1200,1200,True,322.5,0,0.0,200.33208006384504,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1260,1260,True,347.5,0,0.0,219.04186395894766,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1320,1320,True,377.0,2,18.0,235.18335853312664,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1380,1380,True,317.0,0,0.0,200.38183105079256,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1440,1440,True,347.0,0,0.0,218.40453410012756,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1500,1500,True,381.5,2,17.5,236.96557454439642,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1560,1560,True,317.5,0,0.0,202.57324693567634,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1620,1620,True,347.5,0,0.0,219.0107137275863,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1680,1680,True,383.5,1,11.5,230.28745910820612,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1740,1740,True,319.0,0,0.0,203.04642032890442,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1800,1800,True,347.5,0,0.0,215.2756576702537,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1860,1860,True,377.0,2,18.0,234.73962568050408,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1920,1920,True,318.5,0,0.0,200.3357672115938,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_1980,1980,True,347.5,0,0.0,218.89224778033784,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2040,2040,True,377.5,2,16.5,236.81975941644416,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2100,2100,True,317.0,0,0.0,201.8241594741554,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2160,2160,True,347.5,0,0.0,218.15680858147454,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2220,2220,True,378.5,2,12.5,235.1537476571829,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2280,2280,True,317.5,0,0.0,202.73466849935545,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2340,2340,True,355.0,0,0.0,217.18642897192183,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2400,2400,True,377.5,1,9.5,233.7163943454769,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2460,2460,True,317.0,0,0.0,202.11970615558107,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2520,2520,True,347.5,0,0.0,216.48035441041108,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2580,2580,True,378.0,1,4.5,234.3235393375992,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2640,2640,True,317.0,0,0.0,201.50247354136428,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2700,2700,True,347.5,0,0.0,216.7619981860099,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2760,2760,True,378.5,1,4.5,233.8374629453223,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2820,2820,True,317.0,0,0.0,202.24937181347693,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2880,2880,True,347.5,0,0.0,216.14651145876445,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_2940,2940,True,378.0,1,4.5,234.20029870426657,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_3000,3000,True,317.0,0,0.0,199.80941750831948,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_3060,3060,True,347.5,0,0.0,216.7619981860099,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_3120,3120,True,379.0,1,4.5,233.15855713847228,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_3180,3180,True,317.5,0,0.0,202.1592011394853,9,5,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_3240,3240,True,347.5,0,0.0,216.84903966834418,9,6,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_3300,3300,True,378.0,1,4.5,233.53865668824633,9,7,0.0,advised: nominal plan (ignores actuation) + queue,corridor_actuated
+adv_300,300,True,305.0,0,0.0,195.19298463715072,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_360,360,True,335.0,0,0.0,208.73163620797436,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_420,420,True,363.5,2,19.5,229.73043746737184,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_480,480,True,307.5,0,0.0,195.29476156472504,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_540,540,True,335.0,0,0.0,208.73163620797436,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_600,600,True,363.5,2,16.0,228.66159580067787,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_660,660,True,308.5,0,0.0,195.35882352939467,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_720,720,True,335.5,0,0.0,208.99451252395335,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_780,780,True,363.5,2,19.5,230.61982335834767,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_840,840,True,305.0,0,0.0,195.32438992720225,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_900,900,True,335.5,0,0.0,208.45832881309522,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_960,960,True,363.5,2,19.0,229.2858121271564,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1020,1020,True,309.5,0,0.0,193.25158833901457,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1080,1080,True,336.5,0,0.0,208.53316306352116,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1140,1140,True,363.5,2,27.0,231.17689096923274,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1200,1200,True,307.0,0,0.0,196.82667594352586,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1260,1260,True,338.5,0,0.0,208.37086800107468,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1320,1320,True,368.5,2,30.0,229.42290067067427,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1380,1380,True,307.0,0,0.0,197.6030608939603,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1440,1440,True,363.0,0,0.0,208.71925043768485,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1500,1500,True,363.0,2,27.5,230.5110288272952,9,7,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1560,1560,True,321.0,0,0.0,195.93535994640325,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1620,1620,True,336.0,0,0.0,208.15439686171752,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1680,1680,True,369.5,1,19.5,226.91276546693294,9,3,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1740,1740,True,344.5,0,0.0,201.90813822637884,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1800,1800,True,335.5,0,0.0,208.18957323636673,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1860,1860,True,366.0,2,27.0,225.75550796564684,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1920,1920,True,310.5,0,0.0,189.67427535782028,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_1980,1980,True,336.0,0,0.0,209.27150245330597,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2040,2040,True,366.5,2,27.0,232.33829713250267,9,7,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2100,2100,True,308.0,0,0.0,196.4608292433272,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2160,2160,True,338.5,0,0.0,209.51087207732115,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2220,2220,True,363.0,2,22.5,229.0813910764637,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2280,2280,True,306.0,0,0.0,195.13735060310367,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2340,2340,True,335.5,0,0.0,208.3306539106575,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2400,2400,True,363.5,1,17.5,227.8355390738109,9,7,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2460,2460,True,305.0,0,0.0,195.99358258742512,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2520,2520,True,342.0,0,0.0,208.3563762558814,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2580,2580,True,363.5,2,19.5,230.8763765352264,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2640,2640,True,305.0,0,0.0,195.4430344116909,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2700,2700,True,335.5,0,0.0,208.6568755433662,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2760,2760,True,363.5,2,19.5,230.86089336803744,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2820,2820,True,307.0,0,0.0,194.78914943351086,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2880,2880,True,335.5,0,0.0,207.9103203630453,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_2940,2940,True,363.5,2,20.5,230.29967853016484,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_3000,3000,True,305.0,0,0.0,195.13529879637542,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_3060,3060,True,335.5,0,0.0,209.04240976251813,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_3120,3120,True,363.5,2,15.5,228.58183860778067,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_3180,3180,True,310.5,0,0.0,196.41231979673515,9,5,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_3240,3240,True,335.5,0,0.0,208.9343613673522,9,4,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_3300,3300,True,363.5,2,15.0,226.24822434477403,9,6,0.0,"advised: history, unconditioned + queue",corridor_actuated
+adv_300,300,True,297.5,0,0.0,190.97629086839467,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_360,360,True,326.5,0,0.0,204.5540267284336,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_420,420,True,355.0,2,17.5,228.73772050545546,10,7,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_480,480,True,306.0,0,0.0,194.3896750494674,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_540,540,True,331.0,0,0.0,207.55930203626474,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_600,600,True,358.5,2,12.0,226.76340678761576,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_660,660,True,300.0,0,0.0,192.1856199266956,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_720,720,True,326.5,0,0.0,204.4258487483659,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_780,780,True,358.0,1,4.5,229.12085630203325,10,8,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_840,840,True,299.0,0,0.0,191.02345720701376,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_900,900,True,328.5,0,0.0,205.4386854220892,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_960,960,True,360.5,2,14.0,223.78128362516878,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1020,1020,True,301.0,0,0.0,190.42366848759312,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1080,1080,True,340.0,0,0.0,207.11836085911955,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1140,1140,True,363.0,3,24.5,237.46069901437946,10,7,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1200,1200,True,306.5,0,0.0,194.9457728343989,10,7,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1260,1260,True,335.0,0,0.0,211.71094759746742,9,8,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1320,1320,True,371.5,2,16.5,228.8265541718888,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1380,1380,True,316.5,0,0.0,202.2832011896377,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1440,1440,True,336.5,0,0.0,211.46340638452696,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1500,1500,True,375.5,2,13.5,226.65989931422715,9,7,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1560,1560,True,321.5,0,0.0,194.5199540950709,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1620,1620,True,334.5,0,0.0,210.54389300964377,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1680,1680,True,364.0,2,16.0,231.5711567286574,9,7,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1740,1740,True,313.0,0,0.0,196.09002566106923,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1800,1800,True,335.5,0,0.0,210.75791470165277,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1860,1860,True,367.5,2,14.0,226.67925202393948,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1920,1920,True,310.5,0,0.0,189.00102916238728,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_1980,1980,True,335.0,1,4.0,214.32461071034692,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2040,2040,True,366.0,2,12.5,230.1288766513531,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2100,2100,True,308.0,0,0.0,195.57192662163007,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2160,2160,True,338.0,1,2.5,213.2637800339265,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2220,2220,True,363.5,2,8.0,229.10137615663356,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2280,2280,True,306.5,0,0.0,195.53456233947514,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2340,2340,True,333.0,0,0.0,211.6750483676643,9,4,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2400,2400,True,359.5,2,7.0,222.57030039313452,9,7,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2460,2460,True,304.0,0,0.0,195.69428029922483,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2520,2520,True,340.0,0,0.0,209.25949376142134,10,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2580,2580,True,356.0,1,9.5,226.95136627917336,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2640,2640,True,301.5,0,0.0,192.22778679734517,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2700,2700,True,328.0,0,0.0,204.907300167691,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2760,2760,True,356.0,2,6.0,225.9576925846238,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2820,2820,True,300.5,0,0.0,191.9706146550453,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2880,2880,True,330.5,0,0.0,204.33468929801697,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_2940,2940,True,360.0,2,7.0,228.82735047812946,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_3000,3000,True,301.5,0,0.0,193.54969290517656,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_3060,3060,True,329.0,0,0.0,204.43420669122668,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_3120,3120,True,356.0,2,2.5,224.33572018265556,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_3180,3180,True,302.5,0,0.0,191.8522778251501,9,5,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_3240,3240,True,328.0,0,0.0,206.58922044501236,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_3300,3300,True,357.5,2,5.5,225.54615493662595,9,6,0.0,advised: history | cross demand + queue,corridor_actuated
+adv_300,300,True,297.5,0,0.0,190.97629086839467,10,4,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_360,360,True,326.5,0,0.0,204.5540267284336,10,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_420,420,True,354.5,2,18.0,232.3100707999399,14,12,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_480,480,True,304.5,0,0.0,192.6672857071463,10,4,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_540,540,True,332.5,0,0.0,209.41470721144893,10,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_600,600,True,359.0,2,11.5,229.31070914929973,12,9,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_660,660,True,300.0,0,0.0,192.5330952785569,10,4,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_720,720,True,337.5,0,0.0,208.10256738322911,11,7,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_780,780,True,356.5,1,4.5,231.7120283614024,14,12,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_840,840,True,298.0,0,0.0,191.08169146403506,10,4,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_900,900,True,328.0,0,0.0,205.0855150484007,10,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_960,960,True,360.5,2,13.5,226.75830629569634,12,10,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1020,1020,True,301.0,0,0.0,192.6157093280155,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1080,1080,True,333.5,0,0.0,212.52674190449648,13,10,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1140,1140,True,363.0,3,24.0,238.1590048173241,12,10,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1200,1200,True,307.0,0,0.0,197.78862465067536,11,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1260,1260,True,335.0,0,0.0,211.47477933945538,10,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1320,1320,True,372.0,2,17.0,229.5514783654491,11,7,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1380,1380,True,316.5,0,0.0,200.61515583222248,10,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1440,1440,True,336.5,0,0.0,212.4641362291167,9,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1500,1500,True,375.5,2,12.5,227.72864956381284,9,7,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1560,1560,True,323.5,0,0.0,196.01755197491863,10,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1620,1620,True,335.5,0,0.0,212.3497792235169,9,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1680,1680,True,366.0,2,17.0,230.87170054188445,12,10,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1740,1740,True,346.5,0,0.0,200.94626893273693,10,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1800,1800,True,336.0,0,0.0,206.32058793936505,9,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1860,1860,True,366.0,2,14.5,229.25266139389106,9,4,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1920,1920,True,311.5,0,0.0,189.72180637679944,9,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_1980,1980,True,335.5,1,1.0,214.28899613168966,9,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2040,2040,True,366.5,2,18.5,229.76224478220306,12,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2100,2100,True,308.0,0,0.0,196.1772504872435,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2160,2160,True,338.5,1,2.0,211.6595471018879,9,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2220,2220,True,363.5,2,8.0,229.09754881945491,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2280,2280,True,307.0,0,0.0,195.3795997863381,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2340,2340,True,333.0,0,0.0,211.34064366335554,10,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2400,2400,True,361.0,1,4.5,226.5239992933432,11,9,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2460,2460,True,304.0,0,0.0,195.69428029922483,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2520,2520,True,339.5,0,0.0,209.2297138146924,10,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2580,2580,True,359.0,1,9.5,226.72247993563175,10,6,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2640,2640,True,303.0,0,0.0,192.04944233134347,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2700,2700,True,327.5,0,0.0,205.02785144726366,10,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2760,2760,True,357.0,2,5.5,226.81801744034934,10,7,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2820,2820,True,302.5,0,0.0,191.78483443894592,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2880,2880,True,330.0,0,0.0,204.29142720220415,10,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_2940,2940,True,359.5,2,5.5,229.4379626676456,11,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_3000,3000,True,301.0,0,0.0,194.90124582405343,10,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_3060,3060,True,328.5,0,0.0,204.8031920266231,10,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_3120,3120,True,357.0,2,2.5,225.89662032970728,10,7,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_3180,3180,True,306.5,0,0.0,191.2962534086686,9,5,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_3240,3240,True,327.0,0,0.0,205.73074590753265,10,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_3300,3300,True,357.0,1,1.0,225.05065705617736,10,8,0.0,advised: history | cross demand + live state + queue,corridor_actuated
+adv_300,300,True,297.5,0,0.0,190.56743267835077,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_360,360,True,328.5,0,0.0,214.53232670167267,9,7,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_420,420,True,357.5,2,11.5,224.53764966670516,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_480,480,True,297.5,0,0.0,191.27236971608363,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_540,540,True,331.0,0,0.0,215.19334490272524,9,8,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_600,600,True,359.5,2,12.0,228.52975787279976,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_660,660,True,300.5,0,0.0,194.2442106493976,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_720,720,True,325.0,0,0.0,210.56468730447767,9,8,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_780,780,True,358.5,2,12.0,228.1038708114651,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_840,840,True,298.5,0,0.0,192.28318496180918,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_900,900,True,328.0,0,0.0,208.45551443565137,9,8,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_960,960,True,360.5,2,14.0,224.98754943131644,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1020,1020,True,301.5,0,0.0,192.1020159116794,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1080,1080,True,337.5,0,0.0,214.45961769290358,9,8,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1140,1140,True,364.5,2,15.0,230.42820708094803,9,3,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1200,1200,True,308.0,0,0.0,194.60747044508977,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1260,1260,True,335.5,0,0.0,207.51781041362176,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1320,1320,True,371.5,2,20.5,228.42063130626124,9,3,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1380,1380,True,316.0,0,0.0,200.84217307718643,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1440,1440,True,363.0,0,0.0,208.6702966316789,9,3,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1500,1500,True,375.5,2,14.0,224.7108476186541,9,2,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1560,1560,True,322.0,0,0.0,194.14881795676664,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1620,1620,True,334.0,0,0.0,211.9397057037631,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1680,1680,True,363.5,2,11.0,229.7079571565956,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1740,1740,True,338.0,0,0.0,200.9478296385053,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1800,1800,True,331.5,0,0.0,211.68155510753448,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1860,1860,True,366.5,2,15.5,225.0223185353232,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1920,1920,True,310.5,0,0.0,190.72322484972486,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_1980,1980,True,336.0,0,0.0,212.31331408595378,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2040,2040,True,366.0,2,18.0,229.92446471667617,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2100,2100,True,306.5,0,0.0,196.02855699308364,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2160,2160,True,337.5,0,0.0,210.58137355013108,9,3,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2220,2220,True,363.0,2,9.5,228.94371715202385,9,3,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2280,2280,True,303.5,0,0.0,192.5138608853493,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2340,2340,True,328.0,0,0.0,203.68440068649792,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2400,2400,True,355.0,1,10.5,225.55327034751983,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2460,2460,True,297.0,0,0.0,192.82033294198416,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2520,2520,True,343.5,0,0.0,207.9184081765151,9,7,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2580,2580,True,355.0,2,9.5,227.22877430833617,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2640,2640,True,300.5,0,0.0,190.97534411046772,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2700,2700,True,327.5,0,0.0,204.45247444360615,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2760,2760,True,355.0,2,8.0,224.54048424613228,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2820,2820,True,300.0,0,0.0,191.12822070266188,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2880,2880,True,326.0,0,0.0,205.69985624474427,9,8,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_2940,2940,True,363.5,2,9.5,229.40518579571406,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_3000,3000,True,302.0,0,0.0,192.09812664704316,9,5,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_3060,3060,True,325.0,0,0.0,207.1811363476926,9,7,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_3120,3120,True,355.0,2,5.0,224.6586416680414,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_3180,3180,True,301.0,0,0.0,192.47471112213546,9,4,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_3240,3240,True,326.5,0,0.0,206.0598771096159,9,8,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_3300,3300,True,357.0,1,3.5,225.5131370388895,9,6,0.0,advised: oracle (recorded truth) + queue,corridor_actuated
+adv_300,300,True,297.0,0,0.0,184.74371459750955,15,10,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_360,360,True,328.5,0,0.0,197.3249855273075,10,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_420,420,True,357.0,2,19.5,219.06058106094505,14,11,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_480,480,True,315.5,0,0.0,194.25387012053508,10,4,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_540,540,True,329.5,0,0.0,200.1366419207232,10,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_600,600,True,360.5,2,8.5,216.22115567101304,12,9,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_660,660,True,304.0,0,0.0,186.27996082226215,10,4,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_720,720,True,326.5,0,0.0,193.97068996358323,12,7,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_780,780,True,361.0,2,12.5,216.3025365640842,14,11,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_840,840,True,298.5,0,0.0,187.6415672338191,12,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_900,900,True,326.5,0,0.0,196.75691992197227,11,7,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_960,960,True,350.5,3,22.0,233.85588208041375,21,14,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1020,1020,True,301.5,0,0.0,184.71015251410492,11,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1080,1080,True,336.5,0,0.0,200.33058421086582,13,11,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1140,1140,True,368.5,3,28.0,230.50986370367002,13,10,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1200,1200,True,305.0,0,0.0,189.569342095224,12,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1260,1260,True,338.0,1,1.5,201.75273347506035,12,8,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1320,1320,True,370.0,2,21.0,226.20149017060808,13,8,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1380,1380,True,316.5,0,0.0,199.11867165620455,10,3,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1440,1440,True,337.0,1,2.0,200.61115682410664,9,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1500,1500,True,362.5,3,26.0,223.1017879381764,11,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1560,1560,True,322.0,0,0.0,191.6200767782827,9,3,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1620,1620,True,334.5,1,8.0,199.9457802517093,11,7,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1680,1680,True,364.5,2,22.5,220.89578591608725,11,9,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1740,1740,True,333.5,0,0.0,196.4920130175129,9,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1800,1800,True,338.5,0,0.0,198.9120836865667,9,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1860,1860,True,372.5,2,18.5,222.83219346011091,11,7,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1920,1920,True,311.0,0,0.0,186.88689556538438,10,4,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_1980,1980,True,337.0,1,7.0,204.4947295301498,10,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2040,2040,True,367.0,3,24.0,225.31702393956564,11,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2100,2100,True,305.5,0,0.0,195.55480895390085,9,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2160,2160,True,337.0,1,4.0,206.51928206039656,11,8,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2220,2220,True,372.5,1,6.5,210.28674994753524,9,7,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2280,2280,True,324.5,0,0.0,188.43408759445876,9,4,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2340,2340,True,334.5,0,0.0,197.4426162663551,10,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2400,2400,True,362.5,1,5.0,207.32603422802381,10,9,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2460,2460,True,305.5,0,0.0,183.5771492517643,9,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2520,2520,True,336.0,1,6.5,206.22812707554885,11,9,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2580,2580,True,374.5,0,0.0,204.65756076473204,10,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2640,2640,True,300.0,0,0.0,186.93828603224102,10,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2700,2700,True,327.5,0,0.0,195.60000666972041,10,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2760,2760,True,356.0,2,17.5,222.1950200902855,12,9,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2820,2820,True,313.0,0,0.0,185.0683551044353,9,3,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2880,2880,True,327.5,0,0.0,191.1226068136153,9,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_2940,2940,True,360.0,2,13.0,217.17673450301274,11,7,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_3000,3000,True,302.0,0,0.0,185.1414712005874,10,4,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_3060,3060,True,335.0,0,0.0,192.25842726319704,9,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_3120,3120,True,358.5,2,8.0,211.6393520204286,9,5,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_3180,3180,True,301.5,0,0.0,181.81222516965548,9,4,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_3240,3240,True,339.0,0,0.0,192.1046173875913,9,6,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated
+adv_3300,3300,True,357.5,2,8.0,214.92034217739186,13,9,0.0,"advised: history | cross demand + live state + queue, realistic driver",corridor_actuated

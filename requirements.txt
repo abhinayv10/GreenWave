@@ -1,0 +1,19 @@
+# Simulation
+eclipse-sumo==1.28.0
+traci==1.28.0
+libsumo==1.28.0
+sumolib==1.28.0
+
+# Core
+numpy
+pandas
+pyyaml
+
+# Dashboard
+streamlit
+plotly
+pyarrow==23.*   # must match the libarrow libsumo is compiled against (ADR-0001)
+
+# Dev
+pytest
+kaleido        # static chart export (PNG) for reports

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated SUMO networks/routes (rebuilt from scenarios/ by greenwave.sim.corridor)
+build/
+
+# Experiment outputs: keep small summaries/tables, ignore large binary dumps and logs
+results/**/*.pkl
+results/**/run_log.txt
+
+# SUMO runtime outputs
+*.sumo.log
+tripinfo*.xml
+emission*.xml
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Environment / secrets
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

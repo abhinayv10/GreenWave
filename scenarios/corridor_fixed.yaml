@@ -1,0 +1,37 @@
+# Synthetic 8-signal arterial, fixed-time control.
+# Purpose (M1): a corridor where a green wave EXISTS but not at the speed limit, so that
+# "drive at the limit" and "follow the speed band" give visibly different outcomes.
+
+name: corridor_fixed
+speed_limit_kmh: 50          # arterial
+cross_speed_limit_kmh: 40
+main_lanes: 2
+cross_lanes: 1
+cross_arm_length_m: 200
+corridor_length_m: 3850      # west end x=0 to east end
+
+signal_timing:
+  control: fixed             # fixed | actuated (M2)
+  cycle_s: 90
+  yellow_s: 3
+  all_red_s: 2
+  # Main-street green starts are aligned for an eastbound progression at this speed.
+  # 40 km/h < 50 km/h limit on purpose: the wave is slower than the limit.
+  progression_speed_kmh: 40
+
+# x = stop-line position along the arterial (m). main_green_s = arterial through green.
+# offset_shift_s breaks the progression locally to create a realistic "bad" signal.
+intersections:
+  - {id: J1, x: 400,  main_green_s: 50}
+  - {id: J2, x: 750,  main_green_s: 45}
+  - {id: J3, x: 1300, main_green_s: 50}
+  - {id: J4, x: 1650, main_green_s: 40}
+  - {id: J5, x: 2200, main_green_s: 45, offset_shift_s: 20}
+  - {id: J6, x: 2500, main_green_s: 50}
+  - {id: J7, x: 3000, main_green_s: 45}
+  - {id: J8, x: 3450, main_green_s: 50}
+
+demand:                      # background traffic, vehicles/hour
+  main_eb: 500
+  main_wb: 500
+  cross_each: 150
