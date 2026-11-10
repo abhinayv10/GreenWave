@@ -60,7 +60,11 @@ class Scenario:
 
 
 def load_scenario(path: str | Path) -> Scenario:
-    raw = yaml.safe_load(Path(path).read_text())
+    return scenario_from_dict(yaml.safe_load(Path(path).read_text()))
+
+
+def scenario_from_dict(raw: dict) -> Scenario:
+    """Build a Scenario from its YAML structure. `x` of an intersection is its along-corridor distance."""
     st = raw["signal_timing"]
     timing = SignalTiming(
         control=st["control"],

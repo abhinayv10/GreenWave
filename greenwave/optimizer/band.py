@@ -15,6 +15,7 @@ from dataclasses import dataclass, field
 
 import numpy as np
 
+from ..energy import Powertrain, segment_energy, stop_energy
 from ..signals.base import GreenWindow, SignalForecaster
 from ..signals.fixed_time import MAIN_THROUGH
 from ..traffic.queue import QueueModel
@@ -59,6 +60,7 @@ class SignalOutcome:
     green: bool           # crossed without stopping
     wait: float           # seconds stationary
     depart: float         # time it crosses the stop line
+    energy: float = 0.0   # energy from the previous signal until crossing this one (g or Wh; 0 without a powertrain)
 
 
 @dataclass(frozen=True)
@@ -69,6 +71,7 @@ class SpeedEvaluation:
     stops: int
     wait: float
     cost: float
+    energy: float = 0.0   # over the same span as travel_time
 
     @property
     def pattern(self) -> tuple[bool, ...]:
@@ -81,8 +84,13 @@ class SpeedBand:
     v_hi: float
     pattern: tuple[bool, ...]
     centre: SpeedEvaluation   # evaluation at the advised target speed (see _target)
-    score: float          # cost at target + fragility penalty (lower is better)
+    score: float          # cost of `scored` + fragility penalty (lower is better)
     tolerance: float = 0.0
+    scored: SpeedEvaluation | None = None   # evaluation the band was ranked on (differs from centre in stop bands)
+
+    @property
+    def ranked(self) -> SpeedEvaluation:
+        return self.scored or self.centre
 
     @property
     def width(self) -> float:
@@ -144,27 +152,34 @@ def _release_time(fc: SignalForecaster, sig: SignalAhead, t: float, cfg: BandCon
 
 def evaluate_speed(v: float, t0: float, v0: float, signals: tuple[SignalAhead, ...], fc: SignalForecaster,
                    cfg: BandConfig, veh: VehicleParams, weights: CostWeights,
-                   queue: QueueModel | None = None) -> SpeedEvaluation:
+                   queue: QueueModel | None = None, pt: Powertrain | None = None) -> SpeedEvaluation:
+    """Simulate cruising at v through `signals` (stops included). With a powertrain `pt`, also integrate
+    energy over the same trajectory (ADR-0013); without one, energy is 0 and the M1-M2 behaviour is unchanged."""
     t, pos, speed = t0, 0.0, v0
-    outcomes, stops, wait = [], 0, 0.0
+    outcomes, stops, wait, energy = [], 0, 0.0, 0.0
     for sig in signals:
         seg = sig.distance - pos
         t_arr = t + arrival_time(seg, speed, v, veh)
+        v_arr = speed_at(seg, speed, v, veh)
+        e = segment_energy(pt, seg, speed, v, veh) if pt else 0.0
         if _green_at(fc, sig, t_arr, cfg, queue):
-            outcomes.append(SignalOutcome(sig.signal_id, t_arr, True, 0.0, t_arr))
-            speed = speed_at(seg, speed, v, veh)
+            outcomes.append(SignalOutcome(sig.signal_id, t_arr, True, 0.0, t_arr, e))
+            speed = v_arr
             t = t_arr
         else:
             # Braking from cruise to the stop line costs v/(2b) extra seconds vs cruising through.
-            t_stopped = t_arr + speed_at(seg, speed, v, veh) / (2 * veh.decel)
+            t_stopped = t_arr + v_arr / (2 * veh.decel)
             g = _release_time(fc, sig, t_arr, cfg, queue)
             t_dep = max(g + veh.startup_lost_s, t_stopped)
             w = t_dep - t_stopped
-            outcomes.append(SignalOutcome(sig.signal_id, t_arr, False, w, t_dep))
+            if pt:
+                e += stop_energy(pt, v_arr, veh) + pt.idle(w)
+            outcomes.append(SignalOutcome(sig.signal_id, t_arr, False, w, t_dep, e))
             stops, wait, speed, t = stops + 1, wait + w, 0.0, t_dep
+        energy += e
         pos = sig.distance
     tt = t - t0
-    return SpeedEvaluation(v, tuple(outcomes), tt, stops, wait, weights.cost(tt, stops, wait))
+    return SpeedEvaluation(v, tuple(outcomes), tt, stops, wait, weights.cost(tt, stops, wait, energy), energy)
 
 
 def _speed_grid(cfg: BandConfig) -> list[float]:
@@ -172,23 +187,47 @@ def _speed_grid(cfg: BandConfig) -> list[float]:
     return [cfg.v_min + i * cfg.grid_step for i in range(n + 1)]
 
 
-def _target(run: list[SpeedEvaluation], cfg: BandConfig) -> SpeedEvaluation:
-    """Advised speed within a band: the fastest speed that keeps +/- tolerance inside the band.
+def _approach_cost(e: SpeedEvaluation, weights: CostWeights) -> float:
+    """Cost from now until the vehicle leaves the first signal it stops at.
 
-    All speeds in a band give the same green pattern, so faster = less time; the tolerance keeps the advice
-    robust to a driver drifting by +/- driver_tolerance. Bands narrower than 2*tolerance use their centre.
+    The advice only governs the approach to that stop: once the signal is passed the controller re-plans
+    (ADR-0007), so the cruise speed after the stop is never actually used.
+    """
+    k = next(i for i, o in enumerate(e.outcomes) if not o.green)
+    t0 = e.outcomes[-1].depart - e.travel_time
+    head = e.outcomes[: k + 1]
+    return weights.cost(head[-1].depart - t0, 1, sum(o.wait for o in head), sum(o.energy for o in head))
+
+
+def _target(run: list[SpeedEvaluation], cfg: BandConfig,
+            weights: CostWeights) -> tuple[SpeedEvaluation, SpeedEvaluation]:
+    """Advised speed within a band (ADR-0006, ADR-0012). Returns (target, evaluation used to score the band).
+
+    Only speeds that keep +/- tolerance inside the band qualify (bands narrower than 2*tolerance use their centre).
+    All-green band: the fastest qualifying speed (faster = less time, same outcome).
+    Band with a stop: departure from the red is fixed by the signal, so a faster approach only means a longer
+    wait. Pick the speed with the cheapest approach to the first stop (usually the slowest): less idling,
+    gentler braking, and often rolling up to a discharging queue instead of stopping. Ties go to the faster speed.
+    The band is still scored at its fastest qualifying speed, so ranking between bands is unchanged.
     """
     lo, hi = run[0].speed + cfg.driver_tolerance, run[-1].speed - cfg.driver_tolerance
     inside = [e for e in run if lo - 1e-9 <= e.speed <= hi + 1e-9]
-    return inside[-1] if inside else run[len(run) // 2]
+    if not inside:
+        mid = run[len(run) // 2]
+        return mid, mid
+    fastest = inside[-1]
+    if all(fastest.pattern):
+        return fastest, fastest
+    return min(inside, key=lambda e: (round(_approach_cost(e, weights), 6), -e.speed)), fastest
 
 
 def compute_plan(t0: float, v0: float, signals: list[SignalAhead], fc: SignalForecaster, cfg: BandConfig,
-                 veh: VehicleParams, weights: CostWeights, queue: QueueModel | None = None) -> Plan:
+                 veh: VehicleParams, weights: CostWeights, queue: QueueModel | None = None,
+                 pt: Powertrain | None = None) -> Plan:
     sigs = tuple(signals[: cfg.horizon])
     if not sigs:
         return Plan(t0, v0, sigs, [], [], None, "No signals ahead: drive at the speed limit.")
-    evals = [evaluate_speed(v, t0, v0, sigs, fc, cfg, veh, weights, queue) for v in _speed_grid(cfg)]
+    evals = [evaluate_speed(v, t0, v0, sigs, fc, cfg, veh, weights, queue, pt) for v in _speed_grid(cfg)]
 
     bands: list[SpeedBand] = []
     run = [evals[0]]
@@ -196,11 +235,11 @@ def compute_plan(t0: float, v0: float, signals: list[SignalAhead], fc: SignalFor
         if e is not None and e.pattern == run[0].pattern:
             run.append(e)
             continue
-        target = _target(run, cfg)
+        target, scored = _target(run, cfg, weights)
         width = run[-1].speed - run[0].speed
         penalty = weights.w_fragile if width < cfg.min_band_width else 0.0
-        bands.append(SpeedBand(run[0].speed, run[-1].speed, run[0].pattern, target, target.cost + penalty,
-                               cfg.driver_tolerance))
+        bands.append(SpeedBand(run[0].speed, run[-1].speed, run[0].pattern, target, scored.cost + penalty,
+                               cfg.driver_tolerance, scored))
         if e is not None:
             run = [e]
     best = min(bands, key=lambda b: (b.score, -b.width))
@@ -217,7 +256,7 @@ def explain(best: SpeedBand, sigs: tuple[SignalAhead, ...], bands: list[SpeedBan
     alt = [b for b in bands if b is not best and b.v_hi > best.v_hi]
     if alt:
         faster = max(alt, key=lambda b: b.v_hi)
-        dt = faster.centre.travel_time - best.centre.travel_time
+        dt = faster.ranked.travel_time - best.ranked.travel_time
         when = f"{abs(dt):.0f}s {'earlier' if dt < 0 else 'later'}" if abs(dt) >= 1 else "at the same time"
         parts.append(f". Driving faster ({faster.v_lo / KMH:.0f}–{faster.v_hi / KMH:.0f} km/h) means "
                      f"{faster.centre.stops} stop(s) and arriving {when}")

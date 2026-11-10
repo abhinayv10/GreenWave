@@ -20,18 +20,18 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from greenwave.analysis import broken_promises  # noqa: E402
+from greenwave.analysis import broken_promises, forecast_quality  # noqa: E402
 from greenwave.optimizer.band import BandConfig  # noqa: E402
 from greenwave.scenario import load_scenario  # noqa: E402
-from greenwave.signals.actuated import ActuatedForecaster, RecordedForecaster, cross_flow  # noqa: E402
-from greenwave.signals.fixed_time import MAIN_THROUGH, FixedTimeForecaster  # noqa: E402
+from greenwave.signals.actuated import ActuatedForecaster, RecordedForecaster  # noqa: E402
+from greenwave.signals.fixed_time import FixedTimeForecaster  # noqa: E402
 from greenwave.sim import corridor  # noqa: E402
-from greenwave.sim.ego import PERFECT, REALISTIC, EgoSpec, run_corridor  # noqa: E402
+from greenwave.sim.ego import PERFECT, REALISTIC, EgoSpec, departure_times, run_corridor  # noqa: E402
 from greenwave.sim.history import collect_history  # noqa: E402
 from greenwave.traffic.queue import QueueModel  # noqa: E402
 
 HIST_SEED, EVAL_SEED = 101, 1
-DEPARTS = list(range(300, 3301, 60))
+DEPARTS = departure_times()
 OUT = ROOT / "results" / "m2"
 
 
@@ -49,32 +49,6 @@ def run(sc, cfg, label, advised, fc=None, queue=None, driver=PERFECT):
             rows.append(m)
     print(f"  {label:<48} done", flush=True)
     return rows, res
-
-
-def forecast_quality(sc, fc_factory, truth, lead_s=60.0, p=0.85):
-    """Predict each true main-green start `lead_s` ahead; report start error and how often the reliable
-    start (start_by(p)) is at or after the true start (it should be, ~p of the time)."""
-    errs, covered = [], []
-    for ix in sc.intersections:
-        for s, e in truth.green[ix.id]:
-            if s < 300:
-                continue
-            fc = fc_factory()
-            t_pred = s - lead_s
-            flows = {sid: cross_flow(sorted(arr), t_pred) for sid, arr in truth.cross_arrivals.items()}
-            green_now = {sid: any(a <= t_pred < b for a, b in truth.green[sid]) for sid in truth.green}
-            if hasattr(fc, "observe"):
-                fc.observe(t_pred, flows, green_now)
-            # match by the (fixed) yield/end time; the predicted start may be far from the true start
-            ws = [w for w in fc.green_windows(ix.id, MAIN_THROUGH, s - 1, e) if abs(w.end - e) < 2]
-            if not ws:
-                continue
-            w = ws[0]
-            errs.append(w.start - s)
-            covered.append(w.start_by(p) >= s - 0.5)
-    errs = np.abs(np.array(errs))
-    return {"windows": len(errs), "start_MAE_s": float(errs.mean()), "start_p90_err_s": float(np.quantile(errs, .9)),
-            "reliable_start_not_early_%": 100 * float(np.mean(covered))}
 
 
 def main():
@@ -143,7 +117,7 @@ def main():
     df = pd.DataFrame(all_rows)
     df.to_csv(OUT / "trips.csv", index=False)
     summary = df.groupby(["scenario", "condition"], sort=False).agg(
-        stops=("stops", "mean"), zero_stop_pct=("stops", lambda s: 100 * (s == 0).mean()),
+        stops=("stops", "mean"), near_stops=("near_stops", "mean"), zero_stop_pct=("stops", lambda s: 100 * (s == 0).mean()),
         broken_promises=("broken_promises", "mean"), wait_s=("wait", "mean"),
         travel_s=("travel_time", "mean"), fuel_g=("fuel_g", "mean"), replans=("replans", "mean"),
     ).round(2)

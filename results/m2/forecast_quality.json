@@ -1,30 +1,30 @@
 {
   "nominal plan (ignores actuation)": {
-    "windows": 365,
-    "start_MAE_s": 22.632876712328766,
+    "windows": 361,
+    "start_MAE_s": 22.61218836565097,
     "start_p90_err_s": 29.0,
     "reliable_start_not_early_%": 100.0
   },
   "history, unconditioned": {
-    "windows": 365,
-    "start_MAE_s": 2.410958904109589,
+    "windows": 361,
+    "start_MAE_s": 2.4224376731301938,
     "start_p90_err_s": 8.5,
-    "reliable_start_not_early_%": 93.15068493150685
+    "reliable_start_not_early_%": 93.07479224376732
   },
   "history | cross demand": {
-    "windows": 365,
-    "start_MAE_s": 1.047945205479452,
-    "start_p90_err_s": 3.8000000000000114,
-    "reliable_start_not_early_%": 92.32876712328768
+    "windows": 361,
+    "start_MAE_s": 1.059556786703601,
+    "start_p90_err_s": 4.0,
+    "reliable_start_not_early_%": 92.24376731301939
   },
   "history | cross demand + live state": {
-    "windows": 365,
-    "start_MAE_s": 1.047945205479452,
-    "start_p90_err_s": 3.8000000000000114,
-    "reliable_start_not_early_%": 92.32876712328768
+    "windows": 361,
+    "start_MAE_s": 1.059556786703601,
+    "start_p90_err_s": 4.0,
+    "reliable_start_not_early_%": 92.24376731301939
   },
   "oracle (recorded truth)": {
-    "windows": 365,
+    "windows": 361,
     "start_MAE_s": 0.0,
     "start_p90_err_s": 0.0,
     "reliable_start_not_early_%": 100.0

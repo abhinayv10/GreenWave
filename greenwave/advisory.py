@@ -12,6 +12,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .optimizer.band import BandConfig, Plan, SignalAhead, compute_plan, evaluate_speed
+from .energy import Powertrain
 from .optimizer.cost import CostWeights
 from .signals.base import SignalForecaster
 from .traffic.queue import QueueModel
@@ -39,6 +40,7 @@ class AdvisoryController:
     veh: VehicleParams
     weights: CostWeights
     queue: QueueModel | None = None
+    powertrain: Powertrain | None = None     # enables the energy term (M3); None = energy-blind (M1-M2)
     plan: Plan | None = None
     expected: dict[str, bool] = field(default_factory=dict)
     first_ahead: str | None = None
@@ -61,7 +63,8 @@ class AdvisoryController:
 
         reason = self._replan_reason(t, x, v, ahead)
         if reason:
-            self.plan = compute_plan(t, v, ahead, self.forecaster, self.cfg, self.veh, self.weights, self.queue)
+            self.plan = compute_plan(t, v, ahead, self.forecaster, self.cfg, self.veh, self.weights, self.queue,
+                                     self.powertrain)
             if self.first_plan is None:
                 self.first_plan = self.plan
             b = self.plan.best
@@ -78,6 +81,7 @@ class AdvisoryController:
         if ahead[0].signal_id != self.first_ahead:
             return "signal passed"
         sigs = tuple(s for s in ahead[: self.cfg.horizon] if s.signal_id in self.expected)
+        # Alignment only needs the green/red outcome, not energy: evaluate without the powertrain (cheaper).
         now = evaluate_speed(self.target, t, v, sigs, self.forecaster, self.cfg, self.veh, self.weights, self.queue)
         for o in now.outcomes:
             if self.expected.get(o.signal_id) and not o.green:

@@ -37,13 +37,15 @@ class SignalHistory:
 
 
 class SignalRecorder:
-    def __init__(self, traci, sc: Scenario):
+    def __init__(self, traci, sc: Scenario, route_edges: list[str] | None = None):
+        """Records the signals of `sc` along `route_edges` (default: the corridor's eastbound route; pass the
+        route explicitly when the corridor is part of a larger network, ADR-0013)."""
         self.traci = traci
         self.sc = sc
         self.ids = [ix.id for ix in sc.intersections]
         self.hist = SignalHistory({s: [] for s in self.ids}, {s: [] for s in self.ids}, {s: [] for s in self.ids})
         self.link_idx, self.approach = {}, {}
-        route = corridor.eastbound_route(sc)
+        route = route_edges or corridor.eastbound_route(sc)
         for sid in self.ids:
             for idx, links in enumerate(traci.trafficlight.getControlledLinks(sid)):
                 if any(i.startswith("eb_") and o.startswith("eb_") for i, o, _ in links):
@@ -95,13 +97,14 @@ class SignalRecorder:
                     self.hist.clearance[sid].append([self.green_since[sid], t_state - self.green_since[sid]])
 
 
-def collect_history(sc: Scenario, cfg_path: Path, seed: int, end: float = 3600) -> SignalHistory:
+def collect_history(sc: Scenario, cfg_path: Path, seed: int, end: float = 3600,
+                    route_edges: list[str] | None = None) -> SignalHistory:
     import libsumo as traci
 
     traci.start([binary("sumo"), "-c", str(cfg_path), "--seed", str(seed), "--end", str(end),
                  "--step-length", "0.5"])
     try:
-        rec = SignalRecorder(traci, sc)
+        rec = SignalRecorder(traci, sc, route_edges)
         while traci.simulation.getTime() < end:
             traci.simulationStep()
             rec.step()

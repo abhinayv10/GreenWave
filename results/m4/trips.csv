@@ -1,0 +1,664 @@
+id,depart,advised,travel_time,stops,near_stops,wait,fuel_g,elec_wh,replans,advice_changes,condition,scenario,broken_promises
+base_300,300,False,314.0,1,1,21.5,215.11157243236877,0.0,0,0,drive at limit,corridor_fixed,
+base_359,359,False,341.5,4,4,37.0,241.75971221861843,0.0,0,0,drive at limit,corridor_fixed,
+base_418,418,False,313.5,1,1,7.5,199.76000352517448,0.0,0,0,drive at limit,corridor_fixed,
+base_477,477,False,320.0,1,1,20.5,207.9913949796712,0.0,0,0,drive at limit,corridor_fixed,
+base_536,536,False,349.5,2,2,28.5,225.39119068607317,0.0,0,0,drive at limit,corridor_fixed,
+base_595,595,False,297.0,1,1,6.5,195.87739932028708,0.0,0,0,drive at limit,corridor_fixed,
+base_654,654,False,322.0,1,2,21.0,222.70507930070534,0.0,0,0,drive at limit,corridor_fixed,
+base_713,713,False,352.5,2,3,32.0,230.55411392518752,0.0,0,0,drive at limit,corridor_fixed,
+base_772,772,False,304.5,1,1,11.5,198.49176537586047,0.0,0,0,drive at limit,corridor_fixed,
+base_831,831,False,332.0,1,1,18.5,210.38185397387355,0.0,0,0,drive at limit,corridor_fixed,
+base_890,890,False,367.0,2,2,31.5,222.51574706344255,0.0,0,0,drive at limit,corridor_fixed,
+base_949,949,False,306.5,1,1,13.0,197.87990640973857,0.0,0,0,drive at limit,corridor_fixed,
+base_1008,1008,False,334.5,1,2,18.5,208.8052811731056,0.0,0,0,drive at limit,corridor_fixed,
+base_1067,1067,False,359.0,3,4,46.5,252.15145511765965,0.0,0,0,drive at limit,corridor_fixed,
+base_1126,1126,False,321.5,1,1,14.5,198.85925528482946,0.0,0,0,drive at limit,corridor_fixed,
+base_1185,1185,False,335.0,1,2,19.0,215.9051624089779,0.0,0,0,drive at limit,corridor_fixed,
+base_1244,1244,False,360.0,5,5,52.5,258.1539017378601,0.0,0,0,drive at limit,corridor_fixed,
+base_1303,1303,False,307.5,1,1,15.5,199.0164284309189,0.0,0,0,drive at limit,corridor_fixed,
+base_1362,1362,False,333.5,1,3,22.0,235.371888133751,0.0,0,0,drive at limit,corridor_fixed,
+base_1421,1421,False,374.5,2,3,43.5,231.60087713370575,0.0,0,0,drive at limit,corridor_fixed,
+base_1480,1480,False,321.0,1,1,16.5,201.06628275364054,0.0,0,0,drive at limit,corridor_fixed,
+base_1539,1539,False,338.0,1,2,19.5,222.02335844131005,0.0,0,0,drive at limit,corridor_fixed,
+base_1598,1598,False,381.0,2,3,42.5,232.23632793379562,0.0,0,0,drive at limit,corridor_fixed,
+base_1657,1657,False,311.0,1,1,14.5,199.53340089157876,0.0,0,0,drive at limit,corridor_fixed,
+base_1716,1716,False,373.5,2,2,13.5,219.70890973472365,0.0,0,0,drive at limit,corridor_fixed,
+base_1775,1775,False,382.5,2,3,38.5,226.77533754735228,0.0,0,0,drive at limit,corridor_fixed,
+base_1834,1834,False,312.0,1,1,12.5,202.27418738073078,0.0,0,0,drive at limit,corridor_fixed,
+base_1893,1893,False,337.5,4,4,33.5,240.76033977314347,0.0,0,0,drive at limit,corridor_fixed,
+base_1952,1952,False,368.5,5,5,64.5,261.12666208563394,0.0,0,0,drive at limit,corridor_fixed,
+base_2011,2011,False,327.0,1,1,14.5,198.3227971387663,0.0,0,0,drive at limit,corridor_fixed,
+base_2070,2070,False,343.5,2,2,28.5,232.3487062053073,0.0,0,0,drive at limit,corridor_fixed,
+base_2129,2129,False,371.5,5,5,65.0,262.36238780693446,0.0,0,0,drive at limit,corridor_fixed,
+base_2188,2188,False,322.0,1,1,16.5,205.89954174152248,0.0,0,0,drive at limit,corridor_fixed,
+base_2247,2247,False,343.5,2,3,30.5,238.53829881468405,0.0,0,0,drive at limit,corridor_fixed,
+base_2306,2306,False,302.0,1,1,6.0,192.88407514585631,0.0,0,0,drive at limit,corridor_fixed,
+base_2365,2365,False,319.0,1,2,22.5,217.708467646282,0.0,0,0,drive at limit,corridor_fixed,
+base_2424,2424,False,351.0,2,2,33.0,226.70107546934807,0.0,0,0,drive at limit,corridor_fixed,
+base_2483,2483,False,299.0,1,1,11.0,198.2378016536469,0.0,0,0,drive at limit,corridor_fixed,
+base_2542,2542,False,322.0,1,3,20.5,224.51455610174887,0.0,0,0,drive at limit,corridor_fixed,
+base_2601,2601,False,356.0,2,3,34.5,232.54458404794966,0.0,0,0,drive at limit,corridor_fixed,
+base_2660,2660,False,304.0,1,1,12.0,196.5273072481828,0.0,0,0,drive at limit,corridor_fixed,
+base_2719,2719,False,329.0,2,2,23.0,225.93005954823303,0.0,0,0,drive at limit,corridor_fixed,
+base_2778,2778,False,372.5,3,5,28.0,239.04261380785158,0.0,0,0,drive at limit,corridor_fixed,
+base_2837,2837,False,301.5,1,1,10.0,197.89111595271254,0.0,0,0,drive at limit,corridor_fixed,
+base_2896,2896,False,331.5,2,3,22.0,230.90718489158058,0.0,0,0,drive at limit,corridor_fixed,
+base_2955,2955,False,359.0,4,4,51.5,253.86002562778137,0.0,0,0,drive at limit,corridor_fixed,
+base_3014,3014,False,306.5,1,1,14.5,198.97900494609868,0.0,0,0,drive at limit,corridor_fixed,
+base_3073,3073,False,331.5,1,1,26.0,224.24384125678196,0.0,0,0,drive at limit,corridor_fixed,
+base_3132,3132,False,358.5,5,5,54.5,256.19566208563396,0.0,0,0,drive at limit,corridor_fixed,
+base_3191,3191,False,309.5,2,1,9.5,199.98598704375732,0.0,0,0,drive at limit,corridor_fixed,
+base_3250,3250,False,336.0,2,3,24.5,232.17718173992571,0.0,0,0,drive at limit,corridor_fixed,
+adv_300,300,True,324.0,0,0,0.0,205.2951973696075,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_359,359,True,363.0,0,2,0.0,223.53223933666732,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_418,418,True,382.0,1,1,25.0,236.08489725002045,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_477,477,True,330.5,0,0,0.0,203.93262752843327,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_536,536,True,398.0,1,2,1.5,229.03211431689894,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_595,595,True,305.5,0,0,0.0,194.47495732404695,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_654,654,True,336.0,0,0,0.0,208.75850766827213,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_713,713,True,364.0,2,2,3.5,226.28718444159202,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_772,772,True,306.5,0,0,0.0,194.43597245906994,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_831,831,True,351.5,0,0,0.0,213.08028076092364,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_890,890,True,367.5,1,2,6.0,226.06107686590204,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_949,949,True,310.0,0,0,0.0,197.79518490957437,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1008,1008,True,341.5,0,0,0.0,206.6384900546242,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1067,1067,True,372.5,2,2,9.0,229.15898526662292,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1126,1126,True,315.5,0,0,0.0,198.4591676339256,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1185,1185,True,342.0,0,1,0.0,212.53977213589008,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1244,1244,True,374.5,2,2,12.0,230.47210965176336,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1303,1303,True,313.5,0,0,0.0,201.7980702745166,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1362,1362,True,344.0,0,1,0.0,213.29027912353828,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1421,1421,True,380.5,1,2,12.0,229.93136233232156,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1480,1480,True,323.0,0,0,0.0,202.73303111822136,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1539,1539,True,345.0,0,1,0.0,214.51528959951705,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1598,1598,True,393.0,2,2,17.0,235.90315726367797,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1657,1657,True,333.0,0,0,0.0,202.33516440157572,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1716,1716,True,367.0,0,1,0.0,217.77727870107498,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1775,1775,True,381.0,2,2,21.0,235.68788273834755,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1834,1834,True,323.5,0,1,0.0,207.01338301036097,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1893,1893,True,360.5,0,1,0.0,217.74196784848337,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_1952,1952,True,398.0,1,2,21.0,234.80179896512976,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2011,2011,True,340.5,0,0,0.0,203.23595444866808,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2070,2070,True,357.0,0,1,0.0,222.38130614682782,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2129,2129,True,397.5,1,2,24.0,237.89334442127353,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2188,2188,True,337.0,0,0,0.0,204.84954576381315,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2247,2247,True,358.5,1,2,1.5,222.08005486397525,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2306,2306,True,407.5,2,2,28.5,239.58790568139304,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2365,2365,True,347.0,0,0,0.0,210.38364852878976,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2424,2424,True,386.5,2,2,1.5,227.04568534494786,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2483,2483,True,326.0,0,0,0.0,195.26106772908238,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2542,2542,True,332.0,0,0,0.0,206.63411782395767,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2601,2601,True,367.5,2,2,5.0,227.45521115615617,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2660,2660,True,307.0,0,0,0.0,194.7824182410793,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2719,2719,True,333.0,0,0,0.0,208.4326626526556,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2778,2778,True,370.5,2,2,8.5,229.62012571246143,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2837,2837,True,310.0,0,0,0.0,200.16151978899805,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2896,2896,True,342.0,0,0,0.0,212.08196961246858,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_2955,2955,True,382.5,2,2,11.5,227.37208728118344,0.0,9,3,advised: true timing plan + queue,corridor_fixed,0.0
+adv_3014,3014,True,327.0,0,0,0.0,205.71517426342763,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_3073,3073,True,357.5,0,1,0.0,214.13427066390074,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_3132,3132,True,380.0,2,2,12.5,229.55850399369643,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_3191,3191,True,322.5,0,0,0.0,201.08808726555563,0.0,9,5,advised: true timing plan + queue,corridor_fixed,0.0
+adv_3250,3250,True,358.0,0,1,0.0,216.15739054559432,0.0,9,4,advised: true timing plan + queue,corridor_fixed,0.0
+adv_300,300,True,324.0,0,0,0.0,204.47528219264456,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_359,359,True,371.0,0,2,0.0,223.7898091918657,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_418,418,True,382.0,1,2,25.0,237.12160732568844,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_477,477,True,330.5,0,0,0.0,204.56932463156033,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_536,536,True,398.0,1,2,0.5,228.2726396295462,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_595,595,True,306.0,0,0,0.0,195.19787448100553,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_654,654,True,339.5,0,0,0.0,207.70539246189855,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_713,713,True,365.5,2,2,3.0,224.01681822474274,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_772,772,True,305.0,0,0,0.0,193.83919905140627,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_831,831,True,339.5,0,0,0.0,209.9015584650408,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_890,890,True,374.0,1,2,6.0,225.2035589069027,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_949,949,True,313.5,0,0,0.0,197.10916550489281,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1008,1008,True,346.5,0,0,0.0,213.7032578418994,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1067,1067,True,380.5,2,2,8.5,227.83524038610418,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1126,1126,True,323.0,0,0,0.0,199.9251115263542,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1185,1185,True,341.0,0,0,0.0,212.00084026933902,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1244,1244,True,371.0,1,2,10.5,230.2138894520632,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1303,1303,True,313.5,0,0,0.0,201.20090048479048,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1362,1362,True,344.0,0,1,0.0,212.2217022887023,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1421,1421,True,373.0,1,2,12.0,229.38690094773835,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1480,1480,True,318.0,0,0,0.0,200.66963086080293,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1539,1539,True,349.5,0,1,0.0,213.2539087012941,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1598,1598,True,391.0,2,2,17.0,233.11406804345145,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1657,1657,True,330.5,0,0,0.0,205.49988031429612,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1716,1716,True,356.0,0,1,0.0,215.62446341686896,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1775,1775,True,391.0,2,2,21.5,237.54403619514585,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1834,1834,True,333.5,0,1,0.0,206.59020923471834,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1893,1893,True,361.0,1,1,0.5,218.21276419649593,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_1952,1952,True,398.0,1,2,21.0,232.76190541241454,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2011,2011,True,340.5,0,0,0.0,202.05928443675225,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2070,2070,True,358.5,0,1,0.0,221.36979690933097,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2129,2129,True,399.0,1,2,24.0,235.63065669636478,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2188,2188,True,338.5,0,0,0.0,204.90873627966772,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2247,2247,True,358.5,0,1,0.0,222.17211671047167,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2306,2306,True,408.0,2,2,28.5,240.74812389604472,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2365,2365,True,347.5,0,1,0.0,210.61767485843714,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2424,2424,True,386.0,2,2,1.5,227.54394844871132,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2483,2483,True,325.5,0,0,0.0,198.19572519874015,0.0,9,6,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2542,2542,True,332.0,0,0,0.0,208.24983018907108,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2601,2601,True,368.0,2,2,5.0,228.22944585179658,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2660,2660,True,307.5,0,0,0.0,195.37712197598086,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2719,2719,True,333.0,0,0,0.0,208.4564293602215,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2778,2778,True,372.0,1,2,7.0,228.90601494255725,0.0,9,3,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2837,2837,True,311.5,0,0,0.0,199.66587289741528,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2896,2896,True,342.0,0,0,0.0,210.41749230751924,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_2955,2955,True,380.5,1,2,10.0,226.7961416647341,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_3014,3014,True,327.0,0,0,0.0,202.07581722462757,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_3073,3073,True,350.5,0,1,0.0,215.1765217394455,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_3132,3132,True,380.5,2,2,12.5,229.84607588639915,0.0,9,5,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_3191,3191,True,323.5,0,0,0.0,201.89793902666457,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_3250,3250,True,354.5,0,1,0.0,214.1494803030869,0.0,9,4,advised: probe-inferred plan (5%) + queue,corridor_fixed,0.0
+adv_300,300,True,324.0,0,0,0.0,204.47528219264456,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_359,359,True,371.0,0,2,0.0,223.7898091918657,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_418,418,True,382.0,1,2,25.0,237.12160732568844,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_477,477,True,330.5,0,0,0.0,204.56932463156033,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_536,536,True,398.0,1,2,0.5,228.2726396295462,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_595,595,True,306.0,0,0,0.0,195.19787448100553,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_654,654,True,339.5,0,0,0.0,207.70539246189855,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_713,713,True,365.5,2,2,3.0,224.01681822474274,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_772,772,True,305.0,0,0,0.0,193.83919905140627,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_831,831,True,339.5,0,0,0.0,209.9015584650408,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_890,890,True,374.0,1,2,6.0,225.2035589069027,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_949,949,True,313.5,0,0,0.0,197.10916550489281,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1008,1008,True,346.5,0,0,0.0,213.7032578418994,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1067,1067,True,380.5,2,2,8.5,227.83524038610418,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1126,1126,True,323.0,0,0,0.0,199.9251115263542,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1185,1185,True,340.0,0,1,0.0,213.30295430558223,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1244,1244,True,371.0,1,2,10.5,229.42148172443464,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1303,1303,True,313.5,0,0,0.0,200.71074272719233,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1362,1362,True,344.0,0,1,0.0,213.52703766339616,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1421,1421,True,382.5,1,2,12.0,230.92803155612472,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1480,1480,True,325.5,0,0,0.0,204.07029356015713,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1539,1539,True,349.0,0,1,0.0,212.49964669560973,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1598,1598,True,379.5,2,2,16.5,233.48983483800492,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1657,1657,True,319.0,0,0,0.0,201.64152939170935,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1716,1716,True,365.0,0,1,0.0,216.67245690341537,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1775,1775,True,390.5,2,2,21.5,237.28760960393473,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1834,1834,True,330.0,0,1,0.0,206.9718113948503,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1893,1893,True,353.5,0,1,0.0,218.4629067163124,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_1952,1952,True,398.5,1,2,21.0,234.8165264146167,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2011,2011,True,341.0,0,0,0.0,203.33981094312514,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2070,2070,True,359.0,0,1,0.0,221.17434265574823,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2129,2129,True,399.5,1,2,23.5,238.57910505076362,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2188,2188,True,341.5,0,0,0.0,207.12706713425956,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2247,2247,True,359.0,1,1,2.0,223.0499248038107,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2306,2306,True,408.0,2,2,28.5,239.89748212993382,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2365,2365,True,347.5,0,1,0.0,209.64596099213676,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2424,2424,True,386.5,2,2,1.0,226.06364836780784,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2483,2483,True,326.0,0,0,0.0,196.5413943984837,0.0,9,6,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2542,2542,True,332.0,0,0,0.0,206.9967251019641,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2601,2601,True,365.0,2,2,4.5,226.3039249816088,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2660,2660,True,307.5,0,0,0.0,193.89138506355343,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2719,2719,True,333.0,0,0,0.0,208.45037087377293,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2778,2778,True,374.5,1,2,7.0,228.5999613747565,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2837,2837,True,314.0,0,0,0.0,198.56569147865946,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2896,2896,True,343.5,0,0,0.0,211.3155446227067,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_2955,2955,True,383.0,2,2,11.0,230.62683811970984,0.0,9,3,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_3014,3014,True,325.5,0,0,0.0,200.4795051863003,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_3073,3073,True,346.0,0,1,0.0,212.4669251444081,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_3132,3132,True,379.5,2,2,12.5,230.52674670438606,0.0,9,5,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_3191,3191,True,322.5,0,0,0.0,203.289820262,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_3250,3250,True,355.5,0,1,0.0,214.6876112610512,0.0,9,4,advised: probe-inferred plan (10%) + queue,corridor_fixed,0.0
+adv_300,300,True,324.0,0,0,0.0,204.47528219264456,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_359,359,True,371.0,0,2,0.0,223.7898091918657,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_418,418,True,382.0,1,2,25.0,237.12160732568844,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_477,477,True,330.5,0,0,0.0,204.56932463156033,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_536,536,True,367.0,1,2,0.5,225.78466434546246,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_595,595,True,306.0,0,0,0.0,195.03137623545337,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_654,654,True,337.0,0,0,0.0,208.13157397901963,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_713,713,True,363.5,2,2,3.5,225.65141576552858,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_772,772,True,306.0,0,0,0.0,194.8743204066188,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_831,831,True,339.5,0,0,0.0,210.4304163291691,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_890,890,True,367.5,1,2,6.0,226.63594189857903,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_949,949,True,310.0,0,0,0.0,198.71352038879797,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1008,1008,True,346.5,0,0,0.0,212.4685002156937,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1067,1067,True,368.0,2,2,9.5,229.22218096631897,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1126,1126,True,307.5,0,0,0.0,199.50505156494302,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1185,1185,True,340.0,0,1,0.0,212.3403678537494,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1244,1244,True,373.0,2,2,12.0,230.9677253732679,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1303,1303,True,312.5,0,0,0.0,201.62496383670197,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1362,1362,True,344.0,0,1,0.0,213.45025444434037,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1421,1421,True,380.0,1,2,12.0,228.78051056958606,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1480,1480,True,325.0,0,0,0.0,201.41796787384217,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1539,1539,True,350.5,0,1,0.0,214.2368908021247,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1598,1598,True,393.0,2,2,16.5,234.4925383010652,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1657,1657,True,333.0,0,0,0.0,205.13674078078608,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1716,1716,True,351.0,0,1,0.0,216.6773400850176,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1775,1775,True,391.5,2,2,21.5,237.5967426955495,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1834,1834,True,330.5,0,1,0.0,206.67033458762998,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1893,1893,True,356.0,0,1,0.0,217.92025582724077,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_1952,1952,True,398.5,1,2,21.0,234.29588735243968,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2011,2011,True,341.0,0,0,0.0,203.03028708473425,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2070,2070,True,357.0,0,1,0.0,222.81185687982952,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2129,2129,True,396.5,1,2,24.0,236.47857073856503,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2188,2188,True,336.0,0,0,0.0,204.47249033869366,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2247,2247,True,358.0,1,1,0.5,223.25668760116955,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2306,2306,True,407.5,2,2,28.5,239.16815378706772,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2365,2365,True,347.0,0,1,0.0,210.2800989846913,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2424,2424,True,386.0,2,2,2.0,228.44968849791263,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2483,2483,True,325.5,0,0,0.0,198.59725960905536,0.0,9,6,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2542,2542,True,334.5,0,0,0.0,204.44978212938085,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2601,2601,True,368.5,2,2,5.0,228.5335599882911,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2660,2660,True,308.0,0,0,0.0,195.98873938632644,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2719,2719,True,333.0,0,0,0.0,208.422999911001,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2778,2778,True,371.5,2,2,8.0,228.13788323887073,0.0,9,3,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2837,2837,True,311.0,0,0,0.0,198.98182515670834,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2896,2896,True,342.0,0,0,0.0,211.74745816531464,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_2955,2955,True,382.0,2,2,11.0,228.61670875302863,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_3014,3014,True,324.5,0,0,0.0,199.42604583612163,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_3073,3073,True,346.0,0,1,0.0,216.96417171821577,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_3132,3132,True,380.0,2,2,12.5,230.7305270026428,0.0,9,5,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_3191,3191,True,322.5,0,0,0.0,202.2375801288205,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+adv_3250,3250,True,357.5,0,1,0.0,217.28146855992495,0.0,9,4,advised: probe-inferred plan (25%) + queue,corridor_fixed,0.0
+base_300,300,False,292.5,2,2,2.0,203.53003141218574,0.0,0,0,drive at limit,corridor_actuated,
+base_359,359,False,321.5,3,3,23.0,227.01361634202723,0.0,0,0,drive at limit,corridor_actuated,
+base_418,418,False,277.0,0,0,0.0,185.20615474859676,0.0,0,0,drive at limit,corridor_actuated,
+base_477,477,False,300.0,0,1,0.0,197.28119584924622,0.0,0,0,drive at limit,corridor_actuated,
+base_536,536,False,330.0,1,3,2.5,204.92067317701205,0.0,0,0,drive at limit,corridor_actuated,
+base_595,595,False,278.5,0,0,0.0,183.8842125351171,0.0,0,0,drive at limit,corridor_actuated,
+base_654,654,False,304.5,2,2,8.0,205.31532584533366,0.0,0,0,drive at limit,corridor_actuated,
+base_713,713,False,327.5,3,3,31.5,224.1594681171296,0.0,0,0,drive at limit,corridor_actuated,
+base_772,772,False,286.0,0,0,0.0,185.12123309113184,0.0,0,0,drive at limit,corridor_actuated,
+base_831,831,False,307.5,2,2,11.5,205.85752338636289,0.0,0,0,drive at limit,corridor_actuated,
+base_890,890,False,330.5,3,3,23.0,230.74539418504878,0.0,0,0,drive at limit,corridor_actuated,
+base_949,949,False,278.5,0,0,0.0,185.60354075622908,0.0,0,0,drive at limit,corridor_actuated,
+base_1008,1008,False,305.0,2,2,14.5,210.75808419728537,0.0,0,0,drive at limit,corridor_actuated,
+base_1067,1067,False,297.0,1,1,2.0,199.53984881125652,0.0,0,0,drive at limit,corridor_actuated,
+base_1126,1126,False,289.5,0,0,0.0,193.3016611167632,0.0,0,0,drive at limit,corridor_actuated,
+base_1185,1185,False,312.0,1,1,20.0,206.27490625133672,0.0,0,0,drive at limit,corridor_actuated,
+base_1244,1244,False,345.5,4,4,42.5,238.59345418934626,0.0,0,0,drive at limit,corridor_actuated,
+base_1303,1303,False,295.0,0,1,0.0,194.29046161196598,0.0,0,0,drive at limit,corridor_actuated,
+base_1362,1362,False,326.0,2,2,14.5,208.53901123445777,0.0,0,0,drive at limit,corridor_actuated,
+base_1421,1421,False,346.5,3,3,35.0,222.9168414572068,0.0,0,0,drive at limit,corridor_actuated,
+base_1480,1480,False,297.0,1,1,1.0,194.15657136441118,0.0,0,0,drive at limit,corridor_actuated,
+base_1539,1539,False,336.0,2,2,9.5,204.34664492032172,0.0,0,0,drive at limit,corridor_actuated,
+base_1598,1598,False,350.5,3,3,46.5,242.77141925924758,0.0,0,0,drive at limit,corridor_actuated,
+base_1657,1657,False,297.0,1,1,1.5,194.83468266994979,0.0,0,0,drive at limit,corridor_actuated,
+base_1716,1716,False,320.0,2,2,26.5,221.60730678648778,0.0,0,0,drive at limit,corridor_actuated,
+base_1775,1775,False,351.5,4,4,53.0,244.87508371944804,0.0,0,0,drive at limit,corridor_actuated,
+base_1834,1834,False,297.5,1,2,5.5,202.69502489919248,0.0,0,0,drive at limit,corridor_actuated,
+base_1893,1893,False,327.0,2,3,32.0,224.1220030177623,0.0,0,0,drive at limit,corridor_actuated,
+base_1952,1952,False,357.0,3,3,54.5,244.8160709954541,0.0,0,0,drive at limit,corridor_actuated,
+base_2011,2011,False,299.5,1,1,9.0,200.7683558378026,0.0,0,0,drive at limit,corridor_actuated,
+base_2070,2070,False,330.0,2,2,31.5,222.107886033576,0.0,0,0,drive at limit,corridor_actuated,
+base_2129,2129,False,279.0,0,0,0.0,183.97617998722595,0.0,0,0,drive at limit,corridor_actuated,
+base_2188,2188,False,319.5,1,1,2.0,194.69278760162504,0.0,0,0,drive at limit,corridor_actuated,
+base_2247,2247,False,332.5,2,2,19.5,207.9692298654628,0.0,0,0,drive at limit,corridor_actuated,
+base_2306,2306,False,279.0,0,0,0.0,184.46630162991067,0.0,0,0,drive at limit,corridor_actuated,
+base_2365,2365,False,293.5,1,1,3.5,199.79443400897483,0.0,0,0,drive at limit,corridor_actuated,
+base_2424,2424,False,328.0,3,3,19.0,230.4981251965081,0.0,0,0,drive at limit,corridor_actuated,
+base_2483,2483,False,279.5,0,0,0.0,184.40347716023032,0.0,0,0,drive at limit,corridor_actuated,
+base_2542,2542,False,320.5,1,1,6.0,195.64081061577366,0.0,0,0,drive at limit,corridor_actuated,
+base_2601,2601,False,331.0,3,3,24.0,227.89720020638643,0.0,0,0,drive at limit,corridor_actuated,
+base_2660,2660,False,288.0,0,0,0.0,185.7796978607996,0.0,0,0,drive at limit,corridor_actuated,
+base_2719,2719,False,303.5,2,2,11.5,206.26863492101222,0.0,0,0,drive at limit,corridor_actuated,
+base_2778,2778,False,332.5,3,3,32.0,238.16583942360415,0.0,0,0,drive at limit,corridor_actuated,
+base_2837,2837,False,281.5,0,0,0.0,183.55144846506994,0.0,0,0,drive at limit,corridor_actuated,
+base_2896,2896,False,310.5,2,2,15.0,209.33484252260064,0.0,0,0,drive at limit,corridor_actuated,
+base_2955,2955,False,338.5,4,5,33.5,242.63812820732934,0.0,0,0,drive at limit,corridor_actuated,
+base_3014,3014,False,289.0,0,0,0.0,188.4462257077802,0.0,0,0,drive at limit,corridor_actuated,
+base_3073,3073,False,309.0,2,2,13.0,213.6690056260483,0.0,0,0,drive at limit,corridor_actuated,
+base_3132,3132,False,338.5,4,5,36.0,244.78050360485537,0.0,0,0,drive at limit,corridor_actuated,
+base_3191,3191,False,287.0,0,0,0.0,185.07533395697024,0.0,0,0,drive at limit,corridor_actuated,
+base_3250,3250,False,314.0,2,2,12.0,215.94142497498132,0.0,0,0,drive at limit,corridor_actuated,
+adv_300,300,True,297.5,0,0,0.0,190.76089966584473,0.0,9,4,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_359,359,True,329.5,0,0,0.0,206.78070091772253,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_418,418,True,360.5,1,2,1.0,224.31326504546814,0.0,9,7,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_477,477,True,300.0,0,0,0.0,192.46321330585673,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_536,536,True,335.0,1,1,1.5,213.8281647262601,0.0,10,7,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_595,595,True,285.5,0,0,0.0,187.38945470692875,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_654,654,True,305.0,0,0,0.0,194.89117056189374,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_713,713,True,343.5,0,1,0.0,213.5722523313238,0.0,9,7,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_772,772,True,289.5,0,0,0.0,188.97724799046037,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_831,831,True,307.5,0,0,0.0,196.13160248803874,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_890,890,True,336.0,0,1,0.0,214.57947481496043,0.0,9,7,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_949,949,True,287.5,0,0,0.0,187.61192623809535,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1008,1008,True,324.0,0,0,0.0,201.34145731106776,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1067,1067,True,349.0,1,1,3.0,222.87066988639606,0.0,10,8,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1126,1126,True,292.5,0,0,0.0,190.51144469881277,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1185,1185,True,321.5,1,1,5.0,206.36163282132014,0.0,10,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1244,1244,True,350.0,0,1,0.0,220.52809261988986,0.0,11,7,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1303,1303,True,296.0,0,0,0.0,189.2920739641414,0.0,9,3,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1362,1362,True,333.0,0,0,0.0,201.5391421519961,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1421,1421,True,356.0,1,1,2.0,222.59059518402046,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1480,1480,True,296.5,0,0,0.0,191.9890318553213,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1539,1539,True,339.0,0,0,0.0,206.3778084460594,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1598,1598,True,358.5,2,2,4.0,223.2481312965751,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1657,1657,True,298.5,0,0,0.0,192.45378133635006,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1716,1716,True,348.5,0,0,0.0,208.94188662371792,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1775,1775,True,361.5,1,1,5.0,223.27215822764026,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1834,1834,True,304.0,0,0,0.0,192.9746016337845,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1893,1893,True,335.0,0,0,0.0,205.48871329044903,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_1952,1952,True,366.5,2,2,10.0,227.07851754369918,0.0,9,4,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2011,2011,True,306.0,0,0,0.0,195.010194544253,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2070,2070,True,336.0,1,1,2.0,215.39134493008314,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2129,2129,True,368.0,2,2,15.5,226.7423760979708,0.0,9,7,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2188,2188,True,310.5,0,0,0.0,194.7724416769333,0.0,9,4,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2247,2247,True,336.0,0,1,0.0,213.3461017381392,0.0,9,4,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2306,2306,True,367.0,1,1,15.0,228.75616364376836,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2365,2365,True,311.0,0,0,0.0,198.19644034796102,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2424,2424,True,332.5,0,0,0.0,208.78584465858611,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2483,2483,True,287.0,0,0,0.0,187.77064516493658,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2542,2542,True,318.5,0,0,0.0,198.73422474624198,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2601,2601,True,337.5,0,0,0.0,210.0890583618153,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2660,2660,True,294.5,0,0,0.0,188.28360809222818,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2719,2719,True,309.0,0,0,0.0,196.8314507915299,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2778,2778,True,341.0,0,0,0.0,209.35266151283756,0.0,9,4,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2837,2837,True,287.5,0,0,0.0,188.03564846407727,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2896,2896,True,312.0,0,0,0.0,198.1835096520916,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_2955,2955,True,343.5,0,0,0.0,216.0105088482697,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_3014,3014,True,288.0,0,0,0.0,187.50269385278548,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_3073,3073,True,316.0,0,0,0.0,198.9667899064404,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_3132,3132,True,344.0,0,0,0.0,213.74434027719064,0.0,9,6,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_3191,3191,True,290.5,0,0,0.0,188.59167324900844,0.0,9,1,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_3250,3250,True,319.5,0,0,0.0,200.39324631215035,0.0,9,5,advised: controller logs | cross demand + queue,corridor_actuated,0.0
+adv_300,300,True,322.5,0,0,0.0,202.40725032905996,0.0,9,4,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_359,359,True,352.5,0,0,0.0,217.23122293092402,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_418,418,True,384.5,1,2,1.0,235.3910103978256,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_477,477,True,324.5,0,0,0.0,202.82294757726535,0.0,9,4,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_536,536,True,356.5,0,1,0.0,222.55966297236637,0.0,9,7,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_595,595,True,297.5,0,0,0.0,192.070046359949,0.0,9,4,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_654,654,True,327.5,0,0,0.0,204.5974044983361,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_713,713,True,359.0,0,0,0.0,220.5931924793422,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_772,772,True,303.0,0,0,0.0,192.49303556740847,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_831,831,True,330.0,0,0,0.0,205.88555849348288,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_890,890,True,365.0,0,0,0.0,220.7349701089367,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_949,949,True,304.5,0,0,0.0,192.80153320458976,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1008,1008,True,334.5,0,0,0.0,208.6907727513405,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1067,1067,True,371.5,1,1,1.5,226.32071833414355,0.0,10,9,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1126,1126,True,314.5,0,0,0.0,195.66994834592188,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1185,1185,True,336.5,0,0,0.0,209.85697834866573,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1244,1244,True,368.0,1,1,2.5,227.1776308284086,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1303,1303,True,310.5,0,0,0.0,195.85059761594877,0.0,9,2,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1362,1362,True,339.5,0,0,0.0,210.5205362457184,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1421,1421,True,371.0,2,3,5.0,235.09102459131486,0.0,10,9,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1480,1480,True,319.0,0,0,0.0,198.41161133511267,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1539,1539,True,342.0,0,0,0.0,211.41975919872635,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1598,1598,True,374.0,2,2,10.5,234.24796276942277,0.0,12,11,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1657,1657,True,315.5,0,0,0.0,199.39094699933403,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1716,1716,True,364.5,0,0,0.0,214.15841798914823,0.0,10,7,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1775,1775,True,379.0,1,3,5.5,232.86918595412817,0.0,12,10,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1834,1834,True,318.5,0,0,0.0,199.78286244698387,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1893,1893,True,349.0,0,0,0.0,214.51477866508637,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_1952,1952,True,379.5,1,2,6.5,235.93967242686625,0.0,12,11,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2011,2011,True,321.5,0,0,0.0,201.47139967699772,0.0,9,4,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2070,2070,True,351.5,0,0,0.0,216.71285578777787,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2129,2129,True,382.5,1,1,12.5,236.67982187688654,0.0,12,10,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2188,2188,True,323.5,0,0,0.0,203.05417868003448,0.0,9,4,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2247,2247,True,355.0,0,2,0.0,226.6332572072633,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2306,2306,True,387.0,1,2,15.0,240.02845159752974,0.0,13,12,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2365,2365,True,326.5,0,0,0.0,204.08137501864536,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2424,2424,True,357.5,0,0,0.0,219.50919310941165,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2483,2483,True,299.5,0,0,0.0,192.54087141094396,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2542,2542,True,329.0,0,0,0.0,205.7243453802545,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2601,2601,True,361.0,0,0,0.0,220.3311426836883,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2660,2660,True,302.5,0,0,0.0,192.6205400980451,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2719,2719,True,332.5,0,0,0.0,206.85215912639148,0.0,9,6,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2778,2778,True,368.5,0,1,0.0,225.17325371129147,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2837,2837,True,306.0,0,0,0.0,194.90921503586063,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2896,2896,True,336.5,0,0,0.0,209.3092419200489,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_2955,2955,True,367.0,0,1,0.0,227.2342792363901,0.0,10,9,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_3014,3014,True,308.5,0,0,0.0,196.21199605408768,0.0,9,2,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_3073,3073,True,339.5,0,0,0.0,211.8606489789957,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_3132,3132,True,371.0,0,0,0.0,226.7057282848062,0.0,9,8,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_3191,3191,True,313.5,0,0,0.0,197.63797456519163,0.0,9,3,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_3250,3250,True,342.0,0,0,0.0,210.8570327687232,0.0,9,5,"advised: probes (5%), unconditioned + queue",corridor_actuated,0.0
+adv_300,300,True,322.0,0,0,0.0,203.42980499119633,0.0,9,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_359,359,True,352.5,0,0,0.0,216.20681835275568,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_418,418,True,383.5,1,1,1.5,230.53374360850086,0.0,9,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_477,477,True,325.0,0,0,0.0,203.53071032792724,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_536,536,True,355.5,0,0,0.0,217.90696940698837,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_595,595,True,297.5,0,0,0.0,192.33664007746117,0.0,9,4,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_654,654,True,327.5,0,0,0.0,205.44197374368835,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_713,713,True,361.0,0,0,0.0,218.1126117142009,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_772,772,True,300.0,0,0,0.0,192.90473554572128,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_831,831,True,332.0,0,0,0.0,206.82814028171038,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_890,890,True,364.0,0,0,0.0,219.32710478728978,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_949,949,True,303.5,0,0,0.0,193.55009022754805,0.0,9,3,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1008,1008,True,333.5,0,0,0.0,208.3030876637871,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1067,1067,True,373.0,0,0,0.0,226.24411684396446,0.0,10,8,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1126,1126,True,312.5,0,0,0.0,198.06519969505183,0.0,11,4,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1185,1185,True,343.0,0,0,0.0,212.3383472550212,0.0,11,8,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1244,1244,True,375.0,2,2,3.5,236.09674673563754,0.0,12,10,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1303,1303,True,317.5,0,0,0.0,198.42811560904772,0.0,9,3,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1362,1362,True,346.5,0,0,0.0,213.66680183935918,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1421,1421,True,382.0,1,2,2.0,234.90112141300293,0.0,9,8,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1480,1480,True,324.5,0,0,0.0,200.30459211004,0.0,9,4,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1539,1539,True,349.5,0,0,0.0,215.03794801188465,0.0,10,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1598,1598,True,379.5,1,1,9.0,230.20402643228923,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1657,1657,True,321.5,0,0,0.0,202.64334038813115,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1716,1716,True,362.0,0,0,0.0,216.49654600705495,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1775,1775,True,383.0,1,1,8.0,232.35465919229253,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1834,1834,True,324.5,0,0,0.0,202.8339944167374,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1893,1893,True,354.5,0,0,0.0,216.90461341802765,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1952,1952,True,385.5,1,1,9.0,233.39725350903868,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2011,2011,True,327.5,0,0,0.0,204.34641556120042,0.0,10,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2070,2070,True,357.5,0,0,0.0,217.4721027129357,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2129,2129,True,389.0,1,1,15.0,235.45088003820348,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2188,2188,True,330.5,0,0,0.0,205.6117556747578,0.0,10,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2247,2247,True,360.5,0,0,0.0,219.02228804172262,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2306,2306,True,389.5,1,1,18.0,236.381801910791,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2365,2365,True,333.5,0,0,0.0,207.24341454399604,0.0,10,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2424,2424,True,357.0,0,0,0.0,218.66968633112143,0.0,13,10,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2483,2483,True,299.5,0,0,0.0,194.76151266831855,0.0,10,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2542,2542,True,329.5,0,0,0.0,206.18339561352352,0.0,10,8,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2601,2601,True,361.0,0,0,0.0,223.33057949648747,0.0,10,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2660,2660,True,302.0,0,0,0.0,193.75269091855031,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2719,2719,True,332.5,0,0,0.0,207.5892046054212,0.0,9,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2778,2778,True,364.0,0,0,0.0,224.28245675725043,0.0,10,8,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2837,2837,True,308.5,0,0,0.0,194.76285406434687,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2896,2896,True,335.5,0,0,0.0,208.6737255445594,0.0,9,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2955,2955,True,367.0,0,1,0.0,226.67688229003014,0.0,10,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3014,3014,True,308.0,0,0,0.0,196.69503006272868,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3073,3073,True,338.5,0,0,0.0,210.7313334363509,0.0,9,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3132,3132,True,378.0,0,0,0.0,227.42901824377145,0.0,9,6,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3191,3191,True,315.5,0,0,0.0,198.37661035370095,0.0,9,5,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3250,3250,True,341.5,0,0,0.0,212.11127023277692,0.0,9,7,advised: probes (5%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_300,300,True,307.5,0,0,0.0,196.1392241894232,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_359,359,True,339.0,0,0,0.0,210.79735786347413,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_418,418,True,374.0,1,1,6.0,228.093927350555,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_477,477,True,318.5,0,0,0.0,201.74152012458845,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_536,536,True,341.5,0,0,0.0,213.46801434805369,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_595,595,True,290.0,0,0,0.0,189.40640326296383,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_654,654,True,322.0,0,0,0.0,203.66518942496776,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_713,713,True,344.5,0,0,0.0,212.99085993786503,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_772,772,True,293.5,0,0,0.0,190.36477632450251,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_831,831,True,316.5,0,0,0.0,200.5685985279963,0.0,9,3,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_890,890,True,347.0,0,0,0.0,213.4685345141087,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_949,949,True,296.5,0,0,0.0,191.30997256781458,0.0,9,3,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1008,1008,True,319.5,0,0,0.0,201.6342213610252,0.0,9,3,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1067,1067,True,352.5,0,0,0.0,214.36146244954287,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1126,1126,True,300.5,0,0,0.0,192.5569294851564,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1185,1185,True,323.0,1,1,5.0,208.34419872402924,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1244,1244,True,353.5,1,1,1.5,221.391005423528,0.0,9,7,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1303,1303,True,307.5,0,0,0.0,192.73758695069358,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1362,1362,True,329.5,1,1,6.5,210.4521815500191,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1421,1421,True,356.5,2,2,2.0,224.93693726098715,0.0,9,7,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1480,1480,True,323.0,0,0,0.0,196.4312916887073,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1539,1539,True,336.0,1,1,3.5,206.36329320853466,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1598,1598,True,359.0,1,1,4.5,224.39151685741223,0.0,9,7,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1657,1657,True,309.0,0,0,0.0,197.39933681115562,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1716,1716,True,357.5,0,0,0.0,205.203834024825,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1775,1775,True,363.0,1,1,5.5,226.46134743176705,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1834,1834,True,311.5,0,0,0.0,198.01355523214605,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1893,1893,True,335.5,1,1,6.5,212.64160233457636,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_1952,1952,True,368.0,1,1,6.0,228.27450435691654,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2011,2011,True,306.0,0,0,0.0,198.35184140890038,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2070,2070,True,337.5,1,1,4.0,214.8239997458446,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2129,2129,True,376.5,1,1,16.5,229.32245135486508,0.0,9,7,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2188,2188,True,319.0,0,0,0.0,201.47858010145347,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2247,2247,True,340.0,0,1,0.0,216.7505386365727,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2306,2306,True,371.5,1,1,19.5,230.76931135444025,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2365,2365,True,320.5,0,0,0.0,202.73909327954152,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2424,2424,True,343.5,0,0,0.0,212.73640200603236,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2483,2483,True,292.0,0,0,0.0,190.05084603247704,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2542,2542,True,321.5,0,0,0.0,201.49470886046115,0.0,9,3,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2601,2601,True,346.5,0,0,0.0,213.9151516610319,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2660,2660,True,295.0,0,0,0.0,190.27449642886205,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2719,2719,True,318.5,0,0,0.0,202.2886320564255,0.0,9,3,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2778,2778,True,349.5,0,0,0.0,217.0892353464012,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2837,2837,True,298.5,0,0,0.0,193.2795118837981,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2896,2896,True,326.0,0,0,0.0,202.24592208911574,0.0,9,4,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_2955,2955,True,352.5,0,0,0.0,219.5774201294199,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_3014,3014,True,301.5,0,0,0.0,193.4375858814975,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_3073,3073,True,325.5,0,0,0.0,206.66809373532277,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_3132,3132,True,355.5,0,0,0.0,219.05065202807745,0.0,9,6,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_3191,3191,True,306.0,0,0,0.0,195.44625045075725,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_3250,3250,True,327.5,0,0,0.0,207.39319132429017,0.0,9,5,"advised: probes (10%), unconditioned + queue",corridor_actuated,0.0
+adv_300,300,True,309.5,0,0,0.0,199.16188284680433,0.0,9,3,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_359,359,True,340.5,0,0,0.0,212.18528867506933,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_418,418,True,372.0,1,1,1.5,226.55078955491,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_477,477,True,314.5,0,0,0.0,199.93806628179183,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_536,536,True,343.5,0,0,0.0,213.3454334280936,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_595,595,True,300.0,0,0,0.0,193.44768168570792,0.0,9,3,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_654,654,True,316.0,0,0,0.0,201.28922496060076,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_713,713,True,346.5,0,0,0.0,214.57114914386725,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_772,772,True,303.5,0,0,0.0,194.12321272066518,0.0,9,3,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_831,831,True,320.5,0,0,0.0,202.12907600388007,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_890,890,True,349.5,0,0,0.0,215.12320907768583,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_949,949,True,306.5,0,0,0.0,196.11315455071534,0.0,9,3,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1008,1008,True,318.0,0,0,0.0,203.69497258638887,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1067,1067,True,349.0,0,0,0.0,216.76538061822635,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1126,1126,True,306.0,0,0,0.0,195.9255488647817,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1185,1185,True,322.0,1,1,5.0,208.52013018149833,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1244,1244,True,354.0,1,1,1.0,220.25979081660336,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1303,1303,True,300.0,0,0,0.0,192.53160289427757,0.0,9,3,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1362,1362,True,333.5,0,0,0.0,203.9110891024617,0.0,9,7,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1421,1421,True,356.5,0,2,0.0,224.6202444753331,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1480,1480,True,298.5,0,0,0.0,192.47579657659963,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1539,1539,True,339.5,0,0,0.0,205.61145671434625,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1598,1598,True,359.0,2,2,4.5,225.7883114597733,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1657,1657,True,301.5,0,0,0.0,193.9366666063469,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1716,1716,True,336.0,0,0,0.0,204.8210129753798,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1775,1775,True,362.5,1,2,10.5,225.41198649807922,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1834,1834,True,304.5,0,0,0.0,194.7283616533452,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1893,1893,True,342.5,0,0,0.0,207.18723407226412,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1952,1952,True,367.5,2,2,9.0,228.72449535400636,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2011,2011,True,307.5,0,0,0.0,196.1939707410093,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2070,2070,True,337.0,1,1,1.5,215.01119828358276,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2129,2129,True,371.0,2,2,13.5,228.24983661826167,0.0,10,8,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2188,2188,True,313.0,0,0,0.0,196.64197387107828,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2247,2247,True,339.0,0,0,0.0,214.80828983192066,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2306,2306,True,370.0,1,1,15.0,229.68179672277492,0.0,10,8,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2365,2365,True,313.0,0,0,0.0,199.70640553566997,0.0,10,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2424,2424,True,342.0,0,0,0.0,212.5790263611245,0.0,10,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2483,2483,True,292.0,0,0,0.0,190.47199619128602,0.0,10,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2542,2542,True,317.5,0,0,0.0,202.39224924075143,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2601,2601,True,345.0,0,0,0.0,213.71849298419534,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2660,2660,True,302.0,0,0,0.0,193.0389805460218,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2719,2719,True,317.0,1,1,2.5,203.83696683401075,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2778,2778,True,348.0,1,1,3.0,218.62796155898624,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2837,2837,True,308.0,0,0,0.0,194.7330260736527,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2896,2896,True,320.0,1,1,1.0,204.57743247872978,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2955,2955,True,350.5,1,1,3.5,219.95028095340516,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3014,3014,True,308.5,0,0,0.0,196.96263753391915,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3073,3073,True,325.5,1,1,1.5,206.52222755226595,0.0,9,5,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3132,3132,True,354.0,0,0,0.0,219.0687119518435,0.0,9,6,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3191,3191,True,311.5,0,0,0.0,198.66032847155134,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3250,3250,True,326.0,1,1,3.0,207.9928727010474,0.0,9,4,advised: probes (10%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_300,300,True,304.5,0,0,0.0,195.09015520976828,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_359,359,True,335.5,0,0,0.0,208.97740565573667,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_418,418,True,365.0,1,1,1.0,222.02850249909216,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_477,477,True,309.0,0,0,0.0,196.45967136328298,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_536,536,True,337.0,0,0,0.0,213.54794176397485,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_595,595,True,286.0,0,0,0.0,187.82272829703268,0.0,9,1,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_654,654,True,310.5,0,0,0.0,197.43107685398064,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_713,713,True,342.0,0,0,0.0,210.83216988638338,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_772,772,True,287.0,0,0,0.0,187.88693867339435,0.0,9,1,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_831,831,True,313.0,0,0,0.0,199.3432772247673,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_890,890,True,343.0,0,0,0.0,213.51803925741186,0.0,9,7,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_949,949,True,287.5,0,0,0.0,187.67307081095137,0.0,9,1,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1008,1008,True,316.0,0,0,0.0,200.19209968912625,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1067,1067,True,352.5,0,1,0.0,217.770738786727,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1126,1126,True,292.0,0,0,0.0,188.7911067710589,0.0,9,2,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1185,1185,True,320.5,0,0,0.0,202.80500664245213,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1244,1244,True,351.5,1,1,2.5,215.38658120643547,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1303,1303,True,294.0,0,0,0.0,188.79645167507854,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1362,1362,True,332.5,0,0,0.0,206.65876735199302,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1421,1421,True,354.5,1,2,3.5,221.79839626765155,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1480,1480,True,297.0,0,0,0.0,192.60434937278663,0.0,9,4,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1539,1539,True,339.0,0,0,0.0,207.67498030422422,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1598,1598,True,356.0,2,2,9.5,224.96995049078487,0.0,9,4,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1657,1657,True,298.5,0,0,0.0,192.25094083933726,0.0,9,4,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1716,1716,True,366.0,0,0,0.0,210.1378714359744,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1775,1775,True,357.5,2,2,8.5,226.0960648485456,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1834,1834,True,302.5,0,0,0.0,191.10696691553946,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1893,1893,True,337.5,0,0,0.0,205.406922347035,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_1952,1952,True,367.5,2,2,12.0,225.9799439997414,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2011,2011,True,304.5,0,0,0.0,196.0236980929854,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2070,2070,True,337.5,0,0,0.0,207.08202108497855,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2129,2129,True,367.5,2,2,17.0,227.90009909484058,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2188,2188,True,315.0,0,0,0.0,198.65058272915695,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2247,2247,True,339.0,0,0,0.0,209.0924216376777,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2306,2306,True,366.5,1,2,15.0,229.5512208919475,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2365,2365,True,311.0,0,0,0.0,196.88468433137564,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2424,2424,True,340.0,0,0,0.0,210.88233914922873,0.0,9,4,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2483,2483,True,287.0,0,0,0.0,187.92153881474826,0.0,9,1,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2542,2542,True,318.0,0,0,0.0,198.08085948783182,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2601,2601,True,342.0,0,0,0.0,210.54840092755282,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2660,2660,True,294.0,0,0,0.0,187.06722862906773,0.0,9,1,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2719,2719,True,315.0,0,0,0.0,200.20276356747468,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2778,2778,True,345.0,0,0,0.0,216.0556583525094,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2837,2837,True,288.5,0,0,0.0,188.42363756771272,0.0,9,1,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2896,2896,True,318.5,0,0,0.0,200.081104611821,0.0,9,4,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_2955,2955,True,348.0,0,0,0.0,218.29459355899183,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_3014,3014,True,291.0,0,0,0.0,189.07479503930082,0.0,9,4,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_3073,3073,True,321.0,0,0,0.0,202.65652318909432,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_3132,3132,True,351.0,0,0,0.0,217.29326653311017,0.0,9,6,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_3191,3191,True,294.0,0,0,0.0,190.49587330563048,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_3250,3250,True,324.0,0,0,0.0,203.76114450319162,0.0,9,5,"advised: probes (25%), unconditioned + queue",corridor_actuated,0.0
+adv_300,300,True,315.5,0,0,0.0,199.56256787357944,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_359,359,True,346.5,0,0,0.0,212.12087781603665,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_418,418,True,378.0,1,1,1.0,231.68107497085495,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_477,477,True,318.5,0,0,0.0,201.05598929416303,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_536,536,True,349.5,0,0,0.0,213.42912258380406,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_595,595,True,291.5,0,0,0.0,189.79357585122773,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_654,654,True,321.5,0,0,0.0,202.0298080713694,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_713,713,True,352.5,0,0,0.0,214.90064328345383,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_772,772,True,294.0,0,0,0.0,190.8858866438752,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_831,831,True,324.5,0,0,0.0,203.58504950385617,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_890,890,True,356.0,0,0,0.0,219.63292280365454,0.0,9,7,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_949,949,True,297.0,0,0,0.0,191.97419194823897,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1008,1008,True,325.0,0,0,0.0,203.84941008028224,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1067,1067,True,351.5,0,1,0.0,221.55074829586914,0.0,9,8,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1126,1126,True,291.0,0,0,0.0,188.26445344602345,0.0,9,1,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1185,1185,True,320.5,0,1,0.0,207.24178209757793,0.0,10,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1244,1244,True,350.5,1,1,0.5,216.3161714553828,0.0,9,3,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1303,1303,True,296.5,0,0,0.0,189.43578654544865,0.0,9,3,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1362,1362,True,333.0,0,0,0.0,202.8068857912802,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1421,1421,True,353.5,1,2,2.5,222.60800666011147,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1480,1480,True,297.0,0,0,0.0,192.58016658288844,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1539,1539,True,338.0,0,0,0.0,205.693164002742,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1598,1598,True,356.5,2,2,7.5,224.94632092869497,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1657,1657,True,301.5,0,0,0.0,191.3687718737221,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1716,1716,True,358.0,0,0,0.0,210.41551785085747,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1775,1775,True,361.0,1,2,5.5,223.1630533427363,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1834,1834,True,304.0,0,0,0.0,191.74325245428335,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1893,1893,True,335.5,0,0,0.0,205.28188142265006,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_1952,1952,True,368.0,2,2,10.0,223.79431866374742,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2011,2011,True,305.0,0,0,0.0,196.12191258918082,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2070,2070,True,337.0,1,1,3.5,215.54457346701383,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2129,2129,True,374.0,2,2,16.0,226.56644946198446,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2188,2188,True,313.5,0,0,0.0,196.22054187381283,0.0,9,7,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2247,2247,True,335.5,0,1,0.0,213.78519688694516,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2306,2306,True,366.0,1,2,15.0,229.4064925613655,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2365,2365,True,310.5,0,0,0.0,198.54364659070302,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2424,2424,True,338.0,0,0,0.0,211.74178444537503,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2483,2483,True,287.0,0,0,0.0,187.87002496225773,0.0,9,1,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2542,2542,True,318.0,0,0,0.0,198.5510210850347,0.0,9,5,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2601,2601,True,341.0,0,0,0.0,211.4485667998318,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2660,2660,True,295.0,0,0,0.0,187.8593449923899,0.0,9,1,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2719,2719,True,312.0,0,0,0.0,198.4262711189819,0.0,9,7,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2778,2778,True,343.5,0,0,0.0,212.63998696224314,0.0,9,7,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2837,2837,True,287.5,0,0,0.0,188.05808209314873,0.0,9,1,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2896,2896,True,315.5,0,0,0.0,199.16582623187816,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_2955,2955,True,346.5,0,1,0.0,217.1358344934793,0.0,9,7,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3014,3014,True,289.5,0,0,0.0,187.5989090011232,0.0,9,3,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3073,3073,True,318.5,0,0,0.0,201.16370858957748,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3132,3132,True,348.5,0,1,0.0,218.8451308038231,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3191,3191,True,292.5,0,0,0.0,189.3893710773885,0.0,9,4,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0
+adv_3250,3250,True,321.5,0,0,0.0,201.7800055825284,0.0,9,6,advised: probes (25%) | cross demand (detectors) + queue,corridor_actuated,0.0

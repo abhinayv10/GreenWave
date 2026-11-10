@@ -1,0 +1,17 @@
+powertrain,route,mode,on_front
+ev,A,limit,74.5
+ev,A,eco,66.7
+ev,A,balanced,27.5
+ev,A,fastest,56.9
+ev,B,limit,49.0
+ev,B,eco,33.3
+ev,B,balanced,33.3
+ev,B,fastest,27.5
+ice,A,limit,80.4
+ice,A,eco,52.9
+ice,A,balanced,45.1
+ice,A,fastest,64.7
+ice,B,limit,49.0
+ice,B,eco,29.4
+ice,B,balanced,29.4
+ice,B,fastest,35.3

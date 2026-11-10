@@ -57,7 +57,7 @@ c[0].metric("Stops per trip", f"{adv.stops.mean():.2f}", delta(base.stops.mean()
 c[1].metric("Waiting at red (s)", f"{adv.wait.mean():.0f}", delta(base.wait.mean(), adv.wait.mean()), delta_color="inverse")
 c[2].metric("Travel time (s)", f"{adv.travel_time.mean():.0f}", delta(base.travel_time.mean(), adv.travel_time.mean()), delta_color="inverse")
 c[3].metric("Fuel (g)", f"{adv.fuel_g.mean():.0f}", delta(base.fuel_g.mean(), adv.fuel_g.mean()), delta_color="inverse")
-st.caption(f"Advised vs drive-at-limit, mean over {len(adv)} departures (one every 60 s). "
+st.caption(f"Advised vs drive-at-limit, mean over {len(adv)} departures (one every 59 s, each at a different signal phase). "
            "Deltas are relative to driving at the limit; lower is better.")
 
 st.divider()

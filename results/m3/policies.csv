@@ -1,0 +1,31 @@
+powertrain,profile,policy,share_A,cost,travel_s,stops,energy,agrees_with_oracle
+ice,eco,always A,100.0,823.24,345.45,0.37,212.77,98.04
+ice,eco,always B,0.0,952.4,336.14,0.0,283.34,1.96
+ice,eco,signal-aware (raw model),60.78,852.14,337.06,0.0,236.82,62.75
+ice,eco,signal-aware (calibrated),100.0,823.24,345.45,0.37,212.77,98.04
+ice,eco,oracle,98.04,823.19,344.89,0.33,213.79,100.0
+ice,balanced,always A,100.0,507.78,345.51,0.39,213.05,76.47
+ice,balanced,always B,0.0,541.56,336.14,0.0,283.34,23.53
+ice,balanced,signal-aware (raw model),39.22,516.06,333.65,0.0,251.61,62.75
+ice,balanced,signal-aware (calibrated),58.82,509.39,336.67,0.0,238.23,82.35
+ice,balanced,oracle,76.47,504.51,339.28,0.08,225.91,100.0
+ice,fastest,always A,100.0,347.78,343.79,0.98,213.34,25.49
+ice,fastest,always B,0.0,333.86,333.86,0.0,283.27,74.51
+ice,fastest,signal-aware (raw model),23.53,329.25,329.25,0.0,263.76,94.12
+ice,fastest,signal-aware (calibrated),23.53,329.25,329.25,0.0,263.76,94.12
+ice,fastest,oracle,25.49,329.07,329.07,0.0,262.33,100.0
+ev,eco,always A,100.0,443.55,344.83,0.39,307.77,86.27
+ev,eco,always B,0.0,504.8,336.14,0.0,624.67,13.73
+ev,eco,signal-aware (raw model),64.71,450.08,337.77,0.02,413.71,78.43
+ev,eco,signal-aware (calibrated),64.71,450.08,337.77,0.02,413.71,78.43
+ev,eco,oracle,86.27,440.3,341.44,0.18,342.48,100.0
+ev,balanced,always A,100.0,382.35,345.6,0.43,314.67,68.63
+ev,balanced,always B,0.0,392.36,336.14,0.0,624.67,31.37
+ev,balanced,signal-aware (raw model),37.25,379.1,333.37,0.0,508.1,68.63
+ev,balanced,signal-aware (calibrated),54.9,376.59,335.79,0.0,453.26,86.27
+ev,balanced,oracle,68.63,374.62,337.58,0.04,404.08,100.0
+ev,fastest,always A,100.0,347.78,343.79,0.98,315.15,25.49
+ev,fastest,always B,0.0,333.86,333.86,0.0,626.84,74.51
+ev,fastest,signal-aware (raw model),23.53,329.25,329.25,0.0,554.14,94.12
+ev,fastest,signal-aware (calibrated),23.53,329.25,329.25,0.0,554.14,94.12
+ev,fastest,oracle,25.49,329.07,329.07,0.0,548.16,100.0

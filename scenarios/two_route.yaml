@@ -1,0 +1,32 @@
+# Two routes between split S and merge M (ADR-0013).
+#   A: the M1-M2 arterial, unchanged (3.85 km, 50 km/h, 8 fixed-time signals).
+#   B: a bypass north of it: connector up, straight section, connector down; 70 km/h, 2 signals.
+# B is tuned so that NEITHER route always wins: similar mean time at the limit, but B is longer and faster,
+# so it costs more energy per trip. Test vehicles start at S (the decision point) and end at M.
+
+name: two_route
+route_a: corridor_fixed.yaml          # relative to this file
+
+route_b:
+  name: bypass
+  speed_limit_kmh: 70                 # whole route, connectors included (one limit per route: BandConfig.v_max)
+  cross_speed_limit_kmh: 40
+  main_lanes: 2
+  cross_lanes: 1
+  cross_arm_length_m: 200
+  connector_dx_m: 400                 # each connector spans this much x ...
+  lift_m: 1500                        # ... and climbs this far north: connector length = hypot(dx, lift)
+  signal_timing:
+    control: fixed
+    cycle_s: 90                       # same cycle as A
+    yellow_s: 3
+    all_red_s: 2
+    progression_speed_kmh: 70         # B's two signals are coordinated at its limit
+  # x = x coordinate on the straight section (between the connectors), like A's x.
+  intersections:
+    - {id: K1, x: 1300, main_green_s: 55}
+    - {id: K2, x: 2600, main_green_s: 55}
+  demand:
+    main_eb: 500
+    main_wb: 500
+    cross_each: 150

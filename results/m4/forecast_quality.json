@@ -1,0 +1,44 @@
+{
+  "controller logs | cross demand": {
+    "windows": 361,
+    "start_MAE_s": 1.059556786703601,
+    "start_p90_err_s": 4.0,
+    "reliable_start_not_early_%": 92.24376731301939
+  },
+  "probes (5%), unconditioned": {
+    "windows": 361,
+    "start_MAE_s": 11.663326940270542,
+    "start_p90_err_s": 25.37396351573443,
+    "reliable_start_not_early_%": 100.0
+  },
+  "probes (5%) | cross demand (detectors)": {
+    "windows": 361,
+    "start_MAE_s": 11.448394181775154,
+    "start_p90_err_s": 23.594323716145936,
+    "reliable_start_not_early_%": 98.61495844875347
+  },
+  "probes (10%), unconditioned": {
+    "windows": 361,
+    "start_MAE_s": 4.980533475192179,
+    "start_p90_err_s": 9.086531595042572,
+    "reliable_start_not_early_%": 98.06094182825484
+  },
+  "probes (10%) | cross demand (detectors)": {
+    "windows": 361,
+    "start_MAE_s": 3.8840901539361665,
+    "start_p90_err_s": 7.689724454606221,
+    "reliable_start_not_early_%": 95.01385041551247
+  },
+  "probes (25%), unconditioned": {
+    "windows": 361,
+    "start_MAE_s": 3.331125169516173,
+    "start_p90_err_s": 6.683626880489101,
+    "reliable_start_not_early_%": 92.24376731301939
+  },
+  "probes (25%) | cross demand (detectors)": {
+    "windows": 361,
+    "start_MAE_s": 2.4732568963354096,
+    "start_p90_err_s": 5.288442993129138,
+    "reliable_start_not_early_%": 85.59556786703601
+  }
+}

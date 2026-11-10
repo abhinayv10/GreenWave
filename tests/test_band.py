@@ -62,6 +62,24 @@ def test_plan_prefers_progression_over_speeding():
     assert at_limit.travel_time <= plan.best.centre.travel_time
 
 
+def test_stop_band_targets_slowest_speed():
+    """When a stop is unavoidable, departure is fixed by the signal: the target must be the slow end of the band
+    (least idling at red), not the fast end (ADR-0012)."""
+    # S0: green 60..90 s; at 30-50 km/h the vehicle arrives at 22-36 s, so it must stop.
+    # S1: always reachable on green after the stop, so a faster cruise *after* S0 looks cheaper over the horizon;
+    # the target must still ignore that, because the controller re-plans once S0 is passed.
+    fc, sigs = _corridor([60, 0], [30, 89], [300, 900])
+    cfg = BandConfig.for_limit(50 * KMH)
+    plan = compute_plan(0.0, 50 * KMH, sigs, fc, cfg, VEH, W)
+    b = plan.best
+    assert b.pattern == (False, True)
+    assert math.isclose(b.target, b.v_lo + cfg.driver_tolerance, abs_tol=cfg.grid_step)
+    assert b.ranked.speed > b.target                       # band still ranked at its fast end
+    fast = b.ranked.outcomes[0]
+    assert math.isclose(b.centre.outcomes[0].depart, fast.depart, abs_tol=1e-6)   # same departure from red
+    assert b.centre.outcomes[0].wait < fast.wait
+
+
 def test_never_exceeds_limits():
     fc, sigs = _corridor([0, 30], [20, 20], [300, 600])
     cfg = BandConfig.for_limit(50 * KMH)

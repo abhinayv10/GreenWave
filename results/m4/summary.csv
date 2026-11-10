@@ -1,0 +1,14 @@
+scenario,condition,stops,near_stops,zero_stop_pct,broken_promises,wait_s,travel_s,fuel_g
+corridor_fixed,drive at limit,1.86,2.24,0.0,,25.38,334.64,220.78
+corridor_fixed,advised: true timing plan + queue,0.57,0.9,64.71,0.0,4.33,350.85,215.4
+corridor_fixed,advised: probe-inferred plan (5%) + queue,0.51,0.9,64.71,0.0,4.2,351.25,215.17
+corridor_fixed,advised: probe-inferred plan (10%) + queue,0.53,0.92,64.71,0.0,4.21,351.17,215.26
+corridor_fixed,advised: probe-inferred plan (25%) + queue,0.57,0.92,64.71,0.0,4.29,349.8,215.49
+corridor_actuated,drive at limit,1.59,1.75,27.45,,14.26,311.14,208.49
+corridor_actuated,advised: controller logs | cross demand + queue,0.27,0.37,78.43,0.0,1.25,322.79,203.95
+corridor_actuated,"advised: probes (5%), unconditioned + queue",0.22,0.43,82.35,0.0,1.18,341.1,212.27
+corridor_actuated,advised: probes (5%) | cross demand (detectors) + queue,0.18,0.22,84.31,0.0,1.29,343.48,212.7
+corridor_actuated,"advised: probes (10%), unconditioned + queue",0.27,0.29,74.51,0.0,1.71,329.92,207.31
+corridor_actuated,advised: probes (10%) | cross demand (detectors) + queue,0.35,0.41,70.59,0.0,1.49,329.24,207.38
+corridor_actuated,"advised: probes (25%), unconditioned + queue",0.24,0.29,84.31,0.0,1.35,324.96,204.41
+corridor_actuated,advised: probes (25%) | cross demand (detectors) + queue,0.24,0.39,82.35,0.0,1.21,327.1,205.48

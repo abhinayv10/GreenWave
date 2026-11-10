@@ -1,7 +1,8 @@
 """M1 experiment: advised vs unadvised (drive at the limit) test vehicles on the fixed-time corridor.
 
-Test vehicles depart every 60 s over most of an hour, so results cover every phase relationship rather than
-one hand-picked departure. Both runs use the same seed and background traffic.
+Test vehicles depart every 59 s over most of an hour. 59 is coprime with the 90 s cycle, so the 51 departures
+meet the signals at 51 different phases rather than one hand-picked departure (ADR-0014).
+Both runs use the same seed and background traffic.
 
 Usage: python scripts/m1_compare.py [scenario.yaml]
 """
@@ -20,7 +21,7 @@ sys.path.insert(0, str(ROOT))
 from greenwave.scenario import load_scenario  # noqa: E402
 from greenwave.signals.fixed_time import FixedTimeForecaster  # noqa: E402
 from greenwave.sim import corridor  # noqa: E402
-from greenwave.sim.ego import EgoSpec, run_corridor  # noqa: E402
+from greenwave.sim.ego import EgoSpec, departure_times, run_corridor  # noqa: E402
 
 
 def main(scenario_path: Path) -> None:
@@ -28,7 +29,7 @@ def main(scenario_path: Path) -> None:
     out = ROOT / "build" / sc.name
     cfg = corridor.build(scenario_path, out)
     fc = FixedTimeForecaster.from_scenario(sc)
-    departs = list(range(300, 3301, 60))
+    departs = departure_times()
 
     runs = {}
     for advised in (False, True):
@@ -47,6 +48,7 @@ def main(scenario_path: Path) -> None:
     summary = pd.DataFrame({
         "trips": g.size(),
         "stops_mean": g.stops.mean(),
+        "near_stops_mean": g.near_stops.mean(),
         "zero_stop_trips_%": g.stops.apply(lambda s: 100 * (s == 0).mean()),
         "wait_s_mean": g.wait.mean(),
         "travel_time_s_mean": g.travel_time.mean(),
